@@ -1,0 +1,41 @@
+.depoimentos-3 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.depoimentos-3 .tituloP{
+        max-width: 800px;
+        margin: 0 auto;
+}
+.depoimentos-3 .btnsCaroseulContent{
+    margin-top: 60px;
+}
+.depoimentos-3 .d-blocos{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 76%;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.depoimentos-3 .d-blocos .txts{
+    padding: 40px 20px;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.depoimentos-3 .d-blocos .imgs{
+    transform: translateY(-40px);
+    margin-right: -32%;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+}
+.depoimentos-3 .d-blocos .imgs img{
+    border-radius: 15px;
+}
+.depoimentos-3 .d-blocos .txts .nome{
+    color: var(--cor-principal);
+    font-weight: 900;
+}

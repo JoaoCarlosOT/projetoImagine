@@ -1,0 +1,105 @@
+.bloco-lista-servicos-3{
+    /* background-color: #121212; */
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.bloco-lista-servicos-3 .owl-stage{
+    display: flex;
+    padding: 5px 0;
+}
+#blocoListaServicos3 .item {
+    position: relative;
+    height: 100%;
+    /* padding: 5px; */
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 22%);
+}
+#blocoListaServicos3 .item .img img{
+    border-radius: 10px;
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all;
+}
+#blocoListaServicos3 .item .img{
+    position: relative;
+    overflow: hidden;
+}
+#blocoListaServicos3 .item .texto {
+    margin-top: 25px;
+    /* margin-bottom: 55px; */
+    text-align: center;
+}
+#blocoListaServicos3 .item .texto .titulo {
+    margin-bottom: 25px;
+}
+#blocoListaServicos3 .item .texto .preco_de{
+    font-size: 16px;
+    text-decoration: line-through;
+} 
+#blocoListaServicos3 .item .texto .valor{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+#blocoListaServicos3 .item .botoes {
+    padding: 0 2px;
+    width: 100%;
+    transition: opacity .08s ease-in-out;
+}
+#blocoListaServicos3 .item .botoes .whatsapp a{
+    max-width: 100%;
+    padding: 5px 0;
+    color: #000;
+    border: 1px solid;
+    background: #fff;
+}
+#blocoListaServicos3 .item .botoes .b_add{
+    display: flex;
+    margin: 5px 0;
+    gap: 5px;
+}
+#blocoListaServicos3 .item .botoes .b_add .quantidade{
+    width: 70px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: none;
+	background: #fff;
+	border: 1px solid #dadada;
+	font-size: 16px;
+	box-shadow: 0 2px 2px #00000014;
+	font-weight: 700;
+	text-align: center; 
+}
+#blocoListaServicos3 .item .botoes .b_add .btn-produto{
+    width: 100%;
+    max-width: 100%;
+}
+
+#blocoListaServicos3 .item .subtitulo{
+    text-align: center;
+}
+
+@media(min-width: 993px){
+    #blocoListaServicos3 .item:hover .img img{
+        transform: scale(1.1);
+    }
+    /*#blocoListaServicos3 .owl-stage{
+        padding: 5px 0;
+    }
+    #blocoListaServicos3 .item .botoes {
+        padding: 0 10px;
+        position: absolute; 
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        display: none;
+    }
+    #blocoListaServicos3 .item:hover{
+        box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 22%);
+    }
+    #blocoListaServicos3 .item:hover .botoes {
+        display: block;
+        opacity: 1;
+    } */
+}

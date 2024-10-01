@@ -1,0 +1,8 @@
+Sitemap: https://www.sitecd.imcdigital.com.br/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Allow: /arquivos/imagens/
+Allow: /cache/

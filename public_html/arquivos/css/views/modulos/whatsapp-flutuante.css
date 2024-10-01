@@ -1,0 +1,150 @@
+.rmsmart-btnwhats-inner-container {
+    position: relative;
+    display: inline-block;
+    -webkit-transform: scale(.85);
+    transform: scale(.85);
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+  }
+  .rmsmart-btnwhats-inner-mask {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    height: 82px;
+    min-width: 66px;
+    -webkit-width: calc(100% + 16px);
+    width: calc(100% + 16px);
+    border-radius: 100px;
+    background: #00aeef;
+    opacity: .2;
+  }
+  .rmsmart-btnwhats-block {
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .rmsmart-btnwhats-pulse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #00aeef;
+    border-radius: 50%;
+  }
+  .rmsmart-btnwhats-pulse-animate {
+    -webkit-animation: widgetPulse infinite 1.5s;
+    animation: widgetPulse infinite 1.5s;
+  }
+  .whatsapp-notification-dummy {
+    background-color: #f22;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    pointer-events: none;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: 1;
+  }
+  .rmsmart-btnwhats-inner-block {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 66px;
+    border-radius: 100px;
+    background: #00aeef;
+    box-sizing: border-box;
+  }
+  .rmsmart-btnwhats-icon-container {
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .rmsmart-btnwhats-inner-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 19px;
+    -webkit-transition: opacity .6s ease-out;
+    transition: opacity .6s ease-out;
+    -webkit-animation: socialRotateBack .4s;
+    animation: socialRotateBack .4s;
+    opacity: 1;
+  }
+  .rmsmart-btnwhats-notification-dummy {
+    background-color: #f22;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    pointer-events: none;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    z-index: 1;
+  }
+  
+  @-webkit-keyframes widgetPulse{
+      50%{
+          -webkit-transform:scale(1,1);
+          transform:scale(1,1);
+          opacity:1
+      }
+      100%{
+          -webkit-transform:scale(2,2);
+          transform:scale(2,2);
+          opacity:0
+      }
+  }
+  @keyframes widgetPulse{
+      50%{
+          -webkit-transform:scale(1,1);
+          transform:scale(1,1);
+          opacity:1
+      }
+      100%{
+          -webkit-transform:scale(2,2);
+          transform:scale(2,2);
+          opacity:0
+      }
+  }
+  @-webkit-keyframes socialRotateBack{
+      0%{
+          -webkit-transform:rotate(90deg);
+          transform:rotate(90deg)
+      }
+      100%{
+          -webkit-transform:rotate(0deg);
+          transform:rotate(0deg)
+      }
+  }
+  @keyframes socialRotateBack{
+      0%{
+          -webkit-transform:rotate(90deg);
+          transform:rotate(90deg)
+      }
+      100%{
+          -webkit-transform:rotate(0deg);
+          transform:rotate(0deg)
+      }
+  }

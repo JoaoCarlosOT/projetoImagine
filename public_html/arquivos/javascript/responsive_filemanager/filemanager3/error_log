@@ -1,0 +1,22 @@
+[30-Oct-2017 15:10:16 UTC] PHP Warning:  copy(): Filename cannot be empty in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 155
+[30-Oct-2017 15:10:16 UTC] PHP Warning:  unlink(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 156
+[30-Oct-2017 15:10:16 UTC] PHP Warning:  chmod(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 158
+[30-Oct-2017 15:10:16 UTC] PHP Warning:  unlink(../source/d0183720cc96019fdfa05616df19177c/Remarketing/semana 30-10/04.png): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 240
+[30-Oct-2017 15:10:17 UTC] PHP Warning:  copy(): Filename cannot be empty in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 155
+[30-Oct-2017 15:10:17 UTC] PHP Warning:  unlink(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 156
+[30-Oct-2017 15:10:17 UTC] PHP Warning:  chmod(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 158
+[30-Oct-2017 15:10:17 UTC] PHP Warning:  unlink(../source/d0183720cc96019fdfa05616df19177c/Remarketing/semana 30-10/03.png): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 240
+[11-Jan-2018 19:55:22 UTC] PHP Warning:  copy(): Filename cannot be empty in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 155
+[11-Jan-2018 19:55:22 UTC] PHP Warning:  unlink(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 156
+[11-Jan-2018 19:55:22 UTC] PHP Warning:  chmod(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 158
+[11-Jan-2018 19:55:22 UTC] PHP Warning:  unlink(../source/ae269ae7793021a68afa5e122dc29d13/Wai Wai/videow.png): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 240
+[10-Nov-2018 02:01:25 UTC] PHP Warning:  copy(): Filename cannot be empty in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 155
+[10-Nov-2018 02:01:25 UTC] PHP Warning:  unlink(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 156
+[10-Nov-2018 02:01:25 UTC] PHP Warning:  chmod(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 158
+[10-Nov-2018 02:01:25 UTC] PHP Warning:  unlink(../source/2eaa544bba9ffb3cbafe85929d885265/20181107_185854.jpg): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 240
+[22-Mar-2019 19:14:59 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 79
+[23-May-2019 15:37:06 UTC] PHP Warning:  copy(): Filename cannot be empty in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 155
+[23-May-2019 15:37:06 UTC] PHP Warning:  unlink(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 156
+[23-May-2019 15:37:06 UTC] PHP Warning:  chmod(): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 158
+[23-May-2019 15:37:06 UTC] PHP Warning:  unlink(../source/a1b3f8e8d1b7b92d6b5d590301b4364c/vr-logo.png): No such file or directory in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/upload.php on line 240
+[31-May-2019 13:25:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/rmsmatcmim/public_html/arquivos/javascript/responsive_filemanager/filemanager/dialog.php on line 827

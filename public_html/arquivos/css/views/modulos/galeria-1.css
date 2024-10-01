@@ -1,0 +1,13 @@
+.galeria-1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.galeria-1 .titulo{
+    text-align: center;
+}
+.galeria-1 .btnsCaroseulContent{
+    margin-top: 60px;
+}
+.galeria-1 .owl-carousel .owl-dots.disabled, .galeria-1 .owl-carousel .owl-nav.disabled {
+    display: none;
+} 

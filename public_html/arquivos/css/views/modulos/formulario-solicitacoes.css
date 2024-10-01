@@ -1,0 +1,59 @@
+.form-solicitacoes{
+    background: #121212;
+    padding: 60px 0;
+}
+.form-solicitacoes .bloco-formulario{
+    max-width: 550px;
+    margin: 0 auto;
+}
+.form-solicitacoes .bloco-formulario .titulo ,.form-solicitacoes .bloco-formulario .subtitulo{
+    color: #fff;
+}
+.form-solicitacoes .div-form {
+    margin-top: 40px;
+}
+.form-solicitacoes .div-form .linha, .form-solicitacoes .div-form .linha-tel{
+    margin: 20px 0;
+    color: #fff;
+}
+.form-solicitacoes .div-form .linha .txtCampo {
+    color: #fff;
+}
+.form-solicitacoes .div-form .linha.row-cell{
+    display: flex;
+    gap: 20px;
+}
+.form-solicitacoes .div-form .linha-tel{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+.form-solicitacoes .linha-botao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.form-solicitacoes .linha-botao .recap{
+    color: #fff;
+}
+.linha-termos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media (max-width: 992px){
+    .form-solicitacoes .linha-botao {
+        flex-direction: column;
+    }
+
+    .form-solicitacoes .linha-botao .btn {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .form-solicitacoes .div-form .linha.row-cell{
+        flex-direction: column;
+    }
+}

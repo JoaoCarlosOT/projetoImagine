@@ -1,0 +1,33 @@
+#depoimentos2{
+    margin-top: 60px;
+    width: 100%;
+}
+#depoimentos2 .owl-stage{
+    display: flex;
+}
+#depoimentos2 .item{
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: calc(100% - 50px);
+}
+#depoimentos2 .item .img{
+    max-width: 100px;
+    margin: -70px auto 0;
+}
+#depoimentos2 .item .img img{
+    border-radius: 50%;
+    border: 5px solid var(--cor-principal);
+}
+#depoimentos2 .item .txt{
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+}
+#depoimentos2 .item .nome{
+    color: var(--cor-principal);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}

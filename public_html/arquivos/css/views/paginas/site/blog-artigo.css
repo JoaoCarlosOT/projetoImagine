@@ -1,0 +1,318 @@
+.topo-imagem {
+	padding: 0 0 60px;
+}
+.topo-imagem .blocos{
+    display: flex;
+    height: 100%;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.topo-imagem .blocos .bloco{
+    width: 50%;
+    margin: auto;
+}
+.topo-imagem .blocos .bloco .subtitulo{
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
+.topo-imagem .blocos .bloco.img img{
+    width: 100%;
+}
+.topo-imagem .formCta .corpo-form{
+	display: flex;
+	gap: 10px;
+	flex-grow: 1;
+	align-items: center;
+}
+.topo-imagem .formCta .blocos-form{
+	display: flex;
+	background: #fff;
+	padding: 30px;
+	border: 2px solid #ed8534;
+	position: relative;
+	gap: 10px;
+	align-items: center;
+}
+.topo-imagem .formCta .blocos-form .linha{
+    display: flex;
+    align-items: center;
+	flex-grow: 1;
+}
+.topo-imagem .formCta .form-txt{
+	width: 255px;
+	margin-bottom: 0;
+}
+.topo-imagem .formCta .tituloBarra3{    
+    font-size: 30px;
+    line-height: 30px;
+}
+.topo-imagem .formCta input, .topo-imagem .formCta select, .topo-imagem .formCta textarea{
+	background: #EAE9EA;
+	border: none;
+}
+.topo-imagem .formCta{
+    /* marbottom: 50px; */
+    width: 100%;
+	position: relative;
+    z-index: 1;
+}
+.topo-imagem .formCta .blocos-form-base{
+	position: absolute;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    -webkit-width: calc(100% + 16px);
+    width: calc(100% + 16px);
+	height: calc(100% + 16px);
+    background: #ed8534;
+    opacity: .2;
+	z-index: -1;
+}
+.topo-imagem .formCta .blocos-form-base-ciclo {
+    -webkit-animation: widgetPulseForm infinite 1.5s;
+    animation: widgetPulseForm infinite 1.5s;
+}
+.topo-imagem .formCta .blocos-form-base-ciclo {
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #ed8534;
+	z-index: -1;
+}
+.topo-imagem .formCta .btn{
+    max-width: 100%;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 0;
+}
+@keyframes widgetPulseForm {
+	50% {
+		-webkit-transform: scale(1,1);
+		transform: scale(1,1);
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1.1,1.5);
+		transform: scale(1.1,1.5);
+		opacity: 0;
+	}
+}
+.flex{
+	display: flex;
+	flex-direction: column;
+}
+.flex > *{
+	max-width: 100%;
+}
+
+#conteudo .flexPrinc{
+	display: flex;
+	flex-wrap: wrap;
+}
+#conteudo .flexPrinc > *{
+	flex-basis: 100%;
+	flex-grow: 1;
+	max-width: 100%;
+}
+.conteudoArtigo {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 17px;
+}
+.plg_link_externo_facebook{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.plg_link_externo_facebook .tit{
+    font-weight: 700;
+}
+.redesSociaisArtigo{
+    display: flex;
+    gap: 10px;
+}
+.redesSociaisArtigo a{
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    width: 45px;
+    font-size: 20px;
+}
+#div_mov{
+	position: relative;
+}
+.navegueCategorias{
+	margin-top: 30px;
+	margin-top: 40px;
+}
+.navegueCategorias .moduletitle {
+	border-bottom: 1px dashed #CCC;
+	margin-bottom: 25px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.navegueCategorias .lista a{
+	border: 1px solid #CCC;
+    padding: 10px;
+    margin: 0 10px 0 0;
+}
+.noticias_mais_lidas{
+	margin-top: 30px;
+}
+.noticias_mais_lidas .flex{
+	flex-direction: row;
+}
+.noticias_mais_lidas .flex .bc1{
+	width: 33.333%;
+	padding-right:20px;
+}
+.noticias_mais_lidas .flex .bc2{
+	width: 66.6666%;
+}
+.noticias_mais_lidas .noticia{
+	border-bottom:1px solid #E6E6E6;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+.noticias_mais_lidas .noticia img{
+	border:1px solid #CCC;
+}
+.noticias_mais_lidas a .titulo {
+	color: #465459;
+	height: 60px;
+	overflow: hidden;
+	display: flex;
+	line-height: 20px;
+	align-items:center;
+	font-size: 17px;
+}
+.noticias_mais_lidas .data_noticia {
+	color: #979797;
+	display: block;
+	font-size: 12px;
+}
+
+.noticias_mais_lidas .noticia .img{
+	position:relative;
+	overflow:hidden;
+}
+.noticias_mais_lidas .noticia .img:after{
+	content:'';
+	background:rgba(0, 0, 0, 0.5);
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:-100%;
+	opacity:1;
+	z-index:2;
+	-webkit-transition:0.6s all;
+	transition:0.6s all;
+}
+.noticias_mais_lidas .noticia .img:before{
+	content: '+';
+	color: #FFF;
+	font-size: 40px;
+	position: absolute;
+	opacity: 1;
+	z-index: 3;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	top: -50px;
+	line-height: 40px;
+	-webkit-transition:0.6s all;
+	transition:0.6s all;
+}
+.noticias_mais_lidas .noticia .flex:hover .img:after{
+	left: 0;
+}
+.noticias_mais_lidas .noticia .flex:hover .img:before{
+	top: calc(50% - 20px);
+}
+.noticias_mais_lidas .noticia .img img{
+	-webkit-transition:0.6s all;
+	transition:0.6s all;
+}
+.noticias_mais_lidas .noticia .flex:hover .img img{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+.noticias_mais_lidas .moduletitle {
+	border-bottom: 1px dashed #CCC;
+	margin-bottom: 25px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.noticias_mais_lidas{
+	margin-bottom:40px;
+}
+@media (min-width: 993px){
+    .flex{
+		flex-direction: row;
+	}
+	.flex.row{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.flex.row > *{
+		padding-right: 15px;
+		padding-left: 15px;
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+    .imagineBlog .items-leading > *{
+		flex-basis: 33.3333%;
+		max-width: 33.3333%;
+	}
+	#conteudo .flexPrinc > .conteudo.col1{
+		flex-basis: 66.666%;
+		max-width: 66.666%; 
+		padding-right: 15px;
+	}
+	#conteudo .flexPrinc > .main-left,
+	#conteudo .flexPrinc > .main-right{
+		flex-wrap: wrap;
+		max-width: 33.333%;
+	}
+
+	#conteudo .flexPrinc{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	#conteudo .flexPrinc > *{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+@media(max-width: 768px){
+    .topo-imagem .blocos{
+        flex-direction: column;
+    }
+    .topo-imagem .blocos .bloco {
+        width: 100%;
+    }
+	.topo-imagem .formCta .form-txt {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.topo-imagem .formCta .blocos-form {
+		flex-direction: column;
+	}
+	.topo-imagem .formCta .corpo-form {
+		flex-direction: column;
+		width: 100%;
+	}
+	.topo-imagem .formCta .blocos-form .linha{
+		width: 100%;
+	}
+}

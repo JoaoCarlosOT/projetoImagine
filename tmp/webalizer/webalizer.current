@@ -1,0 +1,258 @@
+# Webalizer V2.23-08 Incremental Data - 09/16/2024 14:46:16
+2024 9 16 14 46 16
+101 52 15 13 1 13 15886 49 15 0
+15 51 51 16 16
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+101 52 15886 15 49 15
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+50 18 7912 30
+51 34 7974 19
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+52
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+49
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/pki-validation/B2261DC459EFF77D45A51085F8BCC5B8.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/2B5FC160A0EA752F8BD550518F247FFF.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/6518BBE0369F4E710E59214CF161FA9B.txt
+0 1 8443747035922593633 64 0 0
+/.well-known/pki-validation/FE266A2F0F12A6D087741B4F503DBCEC.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/30420F3067F6D868F2448317F4F58101.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/A410FCE83337EBD5F87FEA227B53BDE0.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/DF3D96EF0BCF2D2090C8F8FEBD64A036.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/5469706300B4F7BE9F42152B4DA96AD8.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/12C84C95093BAC12E8266016FB9E8861.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/C77C25DC7B0212CB078C479184C56E19.txt
+0 1 0 64 0 0
+/
+0 22 0 13706 15 1
+/.well-known/pki-validation/8F1B83EA6650D8704DC34CDE6F8DC664.txt
+0 16 0 1232 0 0
+/.well-known/pki-validation/BFC47E10209264D31FB77510C7AA4AAF.txt
+0 4 0 308 0 0
+# End Of Table - urls
+# -sites- (monthly)
+vps-d3dbb879.vps.ovh.net
+0 4 2 1246 2 1726497566
+-
+218.185.71.34.bc.googleusercontent.com
+0 1 1 623 1 1726494988
+/
+ac09637315.scan.leakix.org
+0 18 3 1869 1 1726494882
+/
+crawl917.us.archive.org
+0 1 1 623 1 1726497564
+/
+20.213.28.34.bc.googleusercontent.com
+0 2 2 1246 2 1726497774
+/
+108-163-157-129.talci.com.br
+0 25 25 1795 0 0
+-
+154.28.222.120
+0 1 1 623 1 1726495419
+/
+scanner.ducks.party
+0 2 1 623 1 1726497596
+/
+154.28.222.182
+0 1 1 623 1 1726495419
+/
+crawl900.us.archive.org
+0 2 2 1246 1 1726494871
+/
+static.177.26.99.88.clients.your-server.de
+0 1 1 623 1 1726497976
+/
+vps-bd272fa4.vps.ovh.net
+0 2 1 623 1 1726494881
+-
+secure.trust-provider.net
+0 5 5 385 0 0
+-
+dd761bf4f4.scan.leakix.org
+0 18 3 1869 1 1726497567
+/
+b69efeaf93.scan.leakix.org
+0 18 3 1869 1 1726494882
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+vps-d3dbb879.vps.ovh.net
+0 4 2 1246 2 1726497566
+-
+218.185.71.34.bc.googleusercontent.com
+0 1 1 623 1 1726494988
+/
+ac09637315.scan.leakix.org
+0 18 3 1869 1 1726494882
+/
+crawl917.us.archive.org
+0 1 1 623 1 1726497564
+/
+20.213.28.34.bc.googleusercontent.com
+0 2 2 1246 2 1726497774
+/
+108-163-157-129.talci.com.br
+0 25 25 1795 0 0
+-
+154.28.222.120
+0 1 1 623 1 1726495419
+/
+scanner.ducks.party
+0 2 1 623 1 1726497596
+/
+154.28.222.182
+0 1 1 623 1 1726495419
+/
+crawl900.us.archive.org
+0 2 2 1246 1 1726494871
+/
+static.177.26.99.88.clients.your-server.de
+0 1 1 623 1 1726497976
+/
+vps-bd272fa4.vps.ovh.net
+0 2 1 623 1 1726494881
+-
+secure.trust-provider.net
+0 5 5 385 0 0
+-
+dd761bf4f4.scan.leakix.org
+0 18 3 1869 1 1726497567
+/
+b69efeaf93.scan.leakix.org
+0 18 3 1869 1 1726494882
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 101
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (l9scan/2.0.932313e2735313e2336313e2830313; +https://leakix.net)
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 (scanner.duck
+0 2
+COMODO DCV
+0 20
+Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot) Zeno/6d512bb warc/v0.8.47
+0 1
+Go-http-client/1.1
+0 51
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/29.0
+0 1
+Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot) Zeno/cfa2980 warc/v0.8.47
+0 2
+Mozilla/5.0 (iPad; CPU OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36
+0 1
+Sectigo DCV
+0 10
+Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA665451) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.1822.98 Mobil
+0 3
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

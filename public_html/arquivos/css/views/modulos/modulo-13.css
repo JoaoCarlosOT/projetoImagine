@@ -1,0 +1,61 @@
+.modulo13{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.modulo13 .blocos{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.modulo13 .blocos .bloco.imag {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* margin-right: 5%; */
+    /* background-color: #000; */
+    padding: 40px 0;
+    position: relative;
+}
+.modulo13 .blocos .bloco.imag:before{
+    content: '';
+    width: 200%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    border-radius: 0 50px 50px 0;
+    top: 0px;
+    left: -110%;
+    z-index: -1;
+}
+.modulo13 .blocos .bloco.imag img{
+    border-radius: 25px;
+    max-width: 500px;
+    width: 100%;
+    /* margin-right: -10%; */
+}
+.modulo13 .blocos .bloco.lista {
+    padding-left: 60px;
+}
+.modulo13 .blocos .bloco.lista ul li{
+    margin-bottom: 20px;
+}
+.modulo13 .blocos .bloco.lista ul li::marker {
+    color: #000; 
+}
+.modulo13 .blocos .bloco.lista .botao{
+    margin-top: 40px;
+}
+.modulo13 .blocos .bloco{
+    width: 50%;
+}
+@media(max-width: 992px){
+    .modulo13 .blocos{
+        flex-direction: column;
+    }
+    .modulo13 .blocos .bloco{
+        width: 100%;
+    }
+    .modulo13 .blocos .bloco.lista {
+        padding-left: 0;
+    }
+}

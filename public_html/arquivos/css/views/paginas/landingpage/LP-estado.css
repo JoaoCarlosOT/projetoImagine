@@ -1,0 +1,26 @@
+.estado {
+    margin: 70px 0 140px 0;
+}
+.estado .subTituloPadrao {
+    font-size: 18px;
+}
+.estado .cidades {
+    display: flex;
+    flex-wrap: wrap;
+}
+.estado .cidades .cidade {
+    width: 25%;
+}
+.estado .cidades .cidade a {
+    font-size: 18px;
+    color: #333669;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    height: 100%;
+}
+@media(max-width: 768px){
+	.estado .cidades .cidade {
+		width: 50%;
+	}
+}

@@ -1,0 +1,66 @@
+body {
+    background: #909090 !important;
+}
+
+
+#copyright {
+    color: #fff !important;
+}
+
+.panel-login {
+    border: 10px solid #848688;
+    margin-bottom: 18px;
+    background-color: #fff;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    -webkit-box-shadow: -1px 1px 4px 0px rgba(0, 0, 0, 0.72);
+    box-shadow: -1px 1px 4px 0px rgba(0, 0, 0, 0.72);
+}
+
+.panel-login .panel-head {
+    color: #4c4d5a;
+    /* border-color: #113075; */
+    text-shadow: 0 -1px 0 rgba(50,50,50,0);
+    position: relative;
+    padding: 24px 15px;
+    /* border-bottom: 1px solid #113075; */
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    color: #fff;
+    font-size: 15px;
+    background: #fff;
+}
+
+.panel-login .panel-head .logomarca {
+    padding: 0;
+}
+
+.panel-login .panel-head .logomarca img {
+    max-width: 200px;
+    max-height: 70px;
+}
+
+.panel-login .panel-body {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.panel-login .panel-body .botao_padra_1 {
+    background: #fe751b;
+    padding: 12px 40px;
+}
+.panel-login .panel-body .botao_padra_1:hover {
+    background: #e06413;
+}
+.panel-login .panel-body .txtCampo {
+    color: #848688;
+}
+
+.panel-login .txt-p-head {
+    color: #fe751b;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

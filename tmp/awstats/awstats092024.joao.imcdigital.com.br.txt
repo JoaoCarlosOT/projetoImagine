@@ -1,0 +1,285 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202409 will be lost/reset.
+# Last config file used to build this data file was /home/joaoimcdigitalco/tmp/awstats/awstats.joao.imcdigital.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2027                
+POS_TIME 2709                
+POS_VISITOR 3377                
+POS_DAY 3935                
+POS_DOMAIN 4080                
+POS_LOGIN 4328                
+POS_ROBOT 4483                
+POS_WORMS 4767                
+POS_EMAILSENDER 4898                
+POS_EMAILRECEIVER 5041                
+POS_SESSION 5117                
+POS_SIDER 5254                
+POS_FILETYPES 5386                
+POS_DOWNLOADS 5482                
+POS_OS 6399                
+POS_BROWSER 6556                
+POS_SCREENSIZE 6741                
+POS_UNKNOWNREFERER 6815                
+POS_UNKNOWNREFERERBROWSER 6955                
+POS_ORIGIN 7090                
+POS_SEREFERRALS 7221                
+POS_PAGEREFS 7365                
+POS_SEARCHWORDS 7513                
+POS_KEYWORDS 7665                
+POS_MISC 2373                
+POS_ERRORS 7724                
+POS_CLUSTER 4184                
+POS_SIDER_404 7809                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240916144616 101 13862 10414947734409
+FirstTime 20240916135436
+LastTime 20240916144616
+LastUpdate 20240916145411 101 0 101 0 0
+TotalVisits 8                   
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 4 10 2928 40 40 4984
+14 5 29 4859 21 22 3115
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+34.28.213.20 2 2 1246 20240916144254 20240916135604 /
+138.68.86.32 1 1 623 20240916135436 20240916135436 /
+34.71.185.218 1 1 623 20240916135628 20240916135628 /
+164.92.107.174 1 1 623 20240916143923 20240916143923 /
+154.28.222.120 1 1 623 20240916140339 20240916140339 /
+88.99.26.177 1 1 623 20240916144616 20240916144616 /
+154.28.222.182 1 1 623 20240916140339 20240916140339 /
+209.38.208.202 1 1 623 20240916135436 20240916135436 /
+108.163.157.129 0 25 1795 
+91.199.212.132 0 5 385 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20240916 9 39 7787 8
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 8 8 4984
+gb 1 6 1008
+ca 0 25 1795
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Go\-http\-client/ 6 3738 20240916143927 0
+archive\.org_bot 3 1869 20240916143924 0
+no_user_agent 3 1869 20240916143922 0
+scanner 1 623 20240916143956 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 9 5607 8 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 9 5607 0 0
+txt 30 2180 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/.well-known/pki-validation/8F1B83EA6650D8704DC34CDE6F8DC664.txt 16 0 1232
+/.well-known/pki-validation/BFC47E10209264D31FB77510C7AA4AAF.txt 4 0 308
+/.well-known/pki-validation/6518BBE0369F4E710E59214CF161FA9B.txt 1 0 64
+/.well-known/pki-validation/30420F3067F6D868F2448317F4F58101.txt 1 0 64
+/.well-known/pki-validation/FE266A2F0F12A6D087741B4F503DBCEC.txt 1 0 64
+/.well-known/pki-validation/5469706300B4F7BE9F42152B4DA96AD8.txt 1 0 64
+/.well-known/pki-validation/12C84C95093BAC12E8266016FB9E8861.txt 1 0 64
+/.well-known/pki-validation/A410FCE83337EBD5F87FEA227B53BDE0.txt 1 0 64
+/.well-known/pki-validation/C77C25DC7B0212CB078C479184C56E19.txt 1 0 64
+/.well-known/pki-validation/2B5FC160A0EA752F8BD550518F247FFF.txt 1 0 64
+/.well-known/pki-validation/B2261DC459EFF77D45A51085F8BCC5B8.txt 1 0 64
+/.well-known/pki-validation/DF3D96EF0BCF2D2090C8F8FEBD64A036.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+winxp 1 1
+win7 1 1
+macosx9 1 1
+android 1 1
+Unknown 30 0
+ios_ipad 2 2
+androidmarshmallow 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome32.0.1664.3 1 1
+chrome118.0.5993.80 1 1
+Unknown 30 0
+chrome52.0.1822.98 3 3
+firefox29.0 1 1
+safari11.0 2 2
+chrome41.0.2224.3 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+COMODO_DCV 20240916143911
+Sectigo_DCV 20240916143912
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Sectigo_DCV 20240916143912
+COMODO_DCV 20240916143911
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 39
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 48 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 16
+/.vscode/sftp.json 3 -
+/_all_dbs 3 -
+/.DS_Store 3 -
+/about 3 -
+/server 3 -
+/cgi-bin/ 3 -
+/server-status 3 -
+/v2/_catalog 3 -
+/s/932313e2735313e2336313e2830313/_/ 3 -
+/debug/default/view 3 -
+/telescope/requests 3 -
+/.git/config 3 -
+/config.json 3 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/login.action 3 -
+/.env 3 -
+END_SIDER_404

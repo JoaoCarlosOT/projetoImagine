@@ -1,0 +1,380 @@
+# Webalizer V2.23-08 Incremental Data - 09/16/2024 14:53:07
+2024 9 16 14 53 7
+135 76 32 15 12 10 511620 59 31 0
+32 82 82 16 16
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+135 76 511620 32 59 31
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+53 16 9345 34
+82 60 502275 25
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+76
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+11
+0
+0
+40
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+8
+0
+0
+# -urls- 
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/webmail-logo.svg
+0 2 7222832 4798 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/warning.png
+0 4 0 4240 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/cp-logo.svg
+0 2 0 1800 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/icon-username.png
+0 4 7223936 1280 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/cpanel-logo.svg
+0 2 7221200 5264 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css
+0 4 7220272 2088 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff
+0 4 7222448 91632 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff
+0 4 7222640 89728 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/notice-success.png
+0 4 7224624 3848 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/notice-error.png
+0 4 7223760 4104 0 0
+/
+0 26 7200496 73178 31 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/icon-password.png
+0 4 7224288 1800 0 0
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff
+0 4 7222064 90640 0 0
+/cPanel_magic_revision_1669125472/unprotected/cpanel/images/notice-info.png
+0 4 7224112 3904 0 0
+/cPanel_magic_revision_1677130754/unprotected/cpanel/style_v2_optimized.css
+0 4 7220544 132744 0 0
+# End Of Table - urls
+# -sites- (monthly)
+104.252.31.76
+0 2 1 623 1 1726495155
+/
+vps-d3dbb879.vps.ovh.net
+0 2 1 623 1 1726494881
+-
+hostedby.privatelayer.com
+0 1 0 0 0 0
+-
+104.252.31.198
+0 2 1 623 1 1726497799
+/
+218.185.71.34.bc.googleusercontent.com
+0 1 0 52 1 1726497757
+/
+104.252.186.174
+0 2 1 623 1 1726495155
+/
+104.252.31.84
+0 1 0 52 1 1726497799
+/
+104.253.214.93
+0 1 0 52 1 1726497800
+/
+195.211.77.142
+0 1 1 623 1 1726494960
+/
+104.253.203.124
+0 13 13 121046 1 1726497801
+/
+104.253.203.23
+0 2 0 0 1 1726497799
+/
+ns1010346.ip-135-148-100.us
+0 2 2 1246 1 1726498387
+/
+104.253.214.149
+0 13 13 121047 1 1726497800
+/
+104.252.31.234
+0 2 0 0 1 1726497799
+/
+104.253.203.201
+0 2 0 104 1 1726497943
+/
+107-173-151-236-host.colocrossing.com
+0 14 14 122172 1 1726497799
+/
+a6efafe308.scan.leakix.org
+0 18 3 1869 1 1726494884
+/
+107-172-179-254-host.colocrossing.com
+0 2 0 0 1 1726497800
+/
+129.227.46.164
+0 2 1 623 1 1726497922
+/
+crawl900.us.archive.org
+0 2 2 1246 1 1726494869
+/
+104.253.203.44
+0 2 1 623 1 1726495156
+/
+a0d8574844.scan.leakix.org
+0 18 3 1869 1 1726494884
+/
+107-172-179-226-host.colocrossing.com
+0 14 14 122179 1 1726497799
+/
+104.252.186.63
+0 2 1 623 1 1726495155
+/
+195.211.77.140
+0 1 1 0 1 1726494954
+/
+107-172-179-212-host.colocrossing.com
+0 2 1 623 1 1726497799
+/
+vps-bd272fa4.vps.ovh.net
+0 2 1 623 1 1726494887
+-
+107-172-179-118-host.colocrossing.com
+0 2 0 104 1 1726497871
+/
+104.253.203.116
+0 2 0 0 1 1726497799
+/
+107-172-179-65-host.colocrossing.com
+0 2 0 104 1 1726497871
+/
+107.16.224.35.bc.googleusercontent.com
+0 1 1 12144 1 1726497760
+/
+104.253.214.70
+0 2 0 104 1 1726497943
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+104.252.31.76
+0 2 1 623 1 1726495155
+/
+vps-d3dbb879.vps.ovh.net
+0 2 1 623 1 1726494881
+-
+hostedby.privatelayer.com
+0 1 0 0 0 0
+-
+104.252.31.198
+0 2 1 623 1 1726497799
+/
+218.185.71.34.bc.googleusercontent.com
+0 1 0 52 1 1726497757
+/
+104.252.186.174
+0 2 1 623 1 1726495155
+/
+104.252.31.84
+0 1 0 52 1 1726497799
+/
+104.253.214.93
+0 1 0 52 1 1726497800
+/
+195.211.77.142
+0 1 1 623 1 1726494960
+/
+104.253.203.124
+0 13 13 121046 1 1726497801
+/
+104.253.203.23
+0 2 0 0 1 1726497799
+/
+ns1010346.ip-135-148-100.us
+0 2 2 1246 1 1726498387
+/
+104.253.214.149
+0 13 13 121047 1 1726497800
+/
+104.252.31.234
+0 2 0 0 1 1726497799
+/
+104.253.203.201
+0 2 0 104 1 1726497943
+/
+107-173-151-236-host.colocrossing.com
+0 14 14 122172 1 1726497799
+/
+a6efafe308.scan.leakix.org
+0 18 3 1869 1 1726494884
+/
+107-172-179-254-host.colocrossing.com
+0 2 0 0 1 1726497800
+/
+129.227.46.164
+0 2 1 623 1 1726497922
+/
+crawl900.us.archive.org
+0 2 2 1246 1 1726494869
+/
+104.253.203.44
+0 2 1 623 1 1726495156
+/
+a0d8574844.scan.leakix.org
+0 18 3 1869 1 1726494884
+/
+107-172-179-226-host.colocrossing.com
+0 14 14 122179 1 1726497799
+/
+104.252.186.63
+0 2 1 623 1 1726495155
+/
+195.211.77.140
+0 1 1 0 1 1726494954
+/
+107-172-179-212-host.colocrossing.com
+0 2 1 623 1 1726497799
+/
+vps-bd272fa4.vps.ovh.net
+0 2 1 623 1 1726494887
+-
+107-172-179-118-host.colocrossing.com
+0 2 0 104 1 1726497871
+/
+104.253.203.116
+0 2 0 0 1 1726497799
+/
+107-172-179-65-host.colocrossing.com
+0 2 0 104 1 1726497871
+/
+107.16.224.35.bc.googleusercontent.com
+0 1 1 12144 1 1726497760
+/
+104.253.214.70
+0 2 0 104 1 1726497943
+/
+# End Of Table - sites (daily)
+# -referrers- 
+https://cpcalendars.joao.imcdigital.com.br/
+0 2
+https://webmail.joao.imcdigital.com.br/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css
+0 6
+https://webmail.joao.imcdigital.com.br/
+0 6
+https://webmail.joao.imcdigital.com.br/cPanel_magic_revision_1677130754/unprotected/cpanel/style_v2_optimized.css
+0 12
+https://www.joao.imcdigital.com.br/
+0 2
+https://cpanel.joao.imcdigital.com.br/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css
+0 6
+- (Direct Request)
+0 75
+https://mail.joao.imcdigital.com.br/
+0 2
+https://joao.imcdigital.com.br/
+0 2
+https://cpanel.joao.imcdigital.com.br/cPanel_magic_revision_1677130754/unprotected/cpanel/style_v2_optimized.css
+0 14
+https://cpcontacts.joao.imcdigital.com.br/
+0 2
+https://cpanel.joao.imcdigital.com.br/
+0 6
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (l9scan/2.0.932313e2735313e2336313e2830313; +https://leakix.net)
+0 2
+Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; SM-J701F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Go-http-client/1.1
+0 34
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 
+0 84
+Mozilla/5.0 (compatible; archive.org_bot +http://archive.org/details/archive.org_bot) Zeno/cfa2980 warc/v0.8.47
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA665451) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.1822.98 Mobil
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

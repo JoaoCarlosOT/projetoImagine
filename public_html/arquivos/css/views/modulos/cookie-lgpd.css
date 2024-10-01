@@ -1,0 +1,73 @@
+
+/* Cookie */
+#cookie-banner-lgpd {
+	position: fixed;
+    bottom: 40px;
+    left: 40px;
+    margin: auto;
+    max-width: 440px;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    z-index: 99999;
+    background: #ffffff;
+    border: 1px solid #f4f4f4;
+    padding: 20px 26px;
+    box-shadow: 0 -1px 10px 0 #acabab4d;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+#cookie-banner-lgpd .cookie-banner-lgpd-container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+#cookie-banner-lgpd .cookie-banner-lgpd-container .cookie-banner-lgpd_text-box {
+	vertical-align: middle;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+    color: #333;
+}
+#cookie-banner-lgpd .cookie-banner-lgpd-container .cookie-banner-lgpd_text-box .titulo{
+	font-size: 16px;
+    font-weight: bold;
+}
+#cookie-banner-lgpd .cookie-banner-lgpd-container .cookie-banner-lgpd_text-box a {
+	color: #333;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#cookie-banner-lgpd .cookie-banner-lgpd-container .cookie-banner-lgpd_button-box {
+	padding: 16px 0px 0px 0px;
+    width: 100%;
+}
+#cookie-banner-lgpd .cookie-banner-lgpd-container .cookie-banner-lgpd_button-box .cookie-banner-lgpd_accept-button {
+	padding: 11px 34px;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    border: 0px;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #1863dc;
+}
+#cookie-banner-lgpd .cookie-banner-lgpd-container .cookie-banner-lgpd_button-box .cookie-banner-lgpd_accept-button:hover {
+	opacity: 0.8;
+} 
+@media (max-width: 768px) {
+	/* Cookie */
+	#cookie-banner-lgpd .cookie-banner-lgpd-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#cookie-banner-lgpd {
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}

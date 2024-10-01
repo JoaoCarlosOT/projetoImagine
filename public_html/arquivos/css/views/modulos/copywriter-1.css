@@ -1,0 +1,123 @@
+.modulo-copywriter-1 .copywriter-blocos.margin{
+    margin: 60px 0;
+}
+.modulo-copywriter-1 .copywriter-blocos.back{
+    margin: 0;
+    padding: 60px 0;
+}  
+
+/* linha na diagonal esquerda superior*/
+.modulo-copywriter-1 .copywriter-blocos.corte-2{
+    position: relative;
+    padding: calc(60px + var(--tamanho-reta)) 0 60px 0;
+    margin: 0;
+    clip-path: polygon(0 var(--tamanho-reta), 100% 0, 100% 100%, 0% 100%);
+}
+
+/* linha na diagonal esquerda superior*/
+.modulo-copywriter-1 .copywriter-blocos.corte-3{
+    position: relative;
+    padding: calc(60px + var(--tamanho-reta)) 0 60px 0;
+    margin: 0;
+    clip-path: polygon(0 0, 100% var(--tamanho-reta), 100% 100%, 0% 100%);
+} 
+
+/* linha na diagonal esquerda inferior*/
+.modulo-copywriter-1 .copywriter-blocos.corte-4{
+    position: relative;
+    padding: 60px 0 calc(60px + var(--tamanho-reta)) 0;
+    margin: 0;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--tamanho-reta)), 0 100%);
+}  
+
+/* linha na diagonal esquerda inferior*/
+.modulo-copywriter-1 .copywriter-blocos.corte-5{
+    position: relative;
+    padding: 60px 0 calc(60px + var(--tamanho-reta)) 0;
+    margin: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--tamanho-reta)));
+
+}
+
+/* linha na diagonal direita inferior e superior*/
+.modulo-copywriter-1 .copywriter-blocos.corte-7{
+    position: relative;
+    padding: calc(60px + var(--tamanho-reta)) 0 calc(60px + var(--tamanho-reta)) 0;
+    margin: 0;
+    clip-path: polygon(0 0, 100% var(--tamanho-reta), 100% 100%, 0 calc(100% - var(--tamanho-reta)));
+}
+
+/* linha na diagonal esquerda inferior e superior*/
+.modulo-copywriter-1 .copywriter-blocos.corte-6{
+    position: relative;
+    padding: calc(60px + var(--tamanho-reta)) 0 calc(60px + var(--tamanho-reta)) 0;
+    margin: 0;
+    clip-path: polygon(0 var(--tamanho-reta), 100% 0, 100% calc(100% - var(--tamanho-reta)), 0 100%);
+}  
+
+.modulo-copywriter-1 .copywriter-blocos .itens{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens.esquerdo .item.texts{
+    padding-right: 20px;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens.direito .item.texts{
+    padding-right: 0;
+    padding-left: 20px;
+    order: 2;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens .item.texts .descricao{
+    margin-top: 20px;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens .item.texts .subtitulo{
+    margin-top: 20px;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens .item.texts .botao{
+    margin-top: 20px;
+    color: white;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens .item.imagem img{
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 25px;
+    /* max-width: 720px; */
+    /* max-height: 550px; */
+}
+.modulo-copywriter-1 .copywriter-blocos .itens .item.imagem iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: url(/arquivos/imagens/youtube-load.gif) no-repeat center center/100% auto;
+} 
+/* texto acima */
+.modulo-copywriter-1 .copywriter-blocos .itens.acima {
+    gap: 40px;
+}
+.modulo-copywriter-1 .copywriter-blocos .itens.acima .item.imagem{
+    text-align: center;
+}
+@media(min-width: 993px){
+    .modulo-copywriter-1 .copywriter-blocos .itens .item{
+        width: 50%;
+    }
+    /* texto acima */
+    .modulo-copywriter-1 .copywriter-blocos .itens.acima .item{
+        width: 100%;
+    }
+}
+@media(max-width: 992px){
+    .modulo-copywriter-1 .copywriter-blocos .itens{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .modulo-copywriter-1 .copywriter-blocos .itens .item{
+        width: 100%;
+    }
+    .modulo-copywriter-1 .copywriter-blocos .itens.esquerdo .item.texts {
+        padding-right: 0;
+    }
+    .modulo-copywriter-1 .copywriter-blocos .itens.direito .item.texts{
+        padding: 0;
+    }
+}

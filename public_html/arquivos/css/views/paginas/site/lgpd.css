@@ -1,0 +1,101 @@
+/* Termo de uso */
+.bloco-termos-uso {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    min-height: 500px;
+}
+
+.bloco-termos-uso  .side-bar-termos {
+    background: #f1f1f1;
+    min-height: 100%;
+    width: 100%;
+}
+
+.bloco-termos-uso  .bloco-side-bar {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.bloco-termos-uso  .bloco-side-bar ul {
+    list-style: none;
+}
+
+.bloco-termos-uso .bloco-side-bar ul a {
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    color: #848688;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.bloco-termos-uso .side-bar-termos {
+    position: relative;
+}
+
+.bloco-termos-uso .texto-termos {
+    padding: 10px 22px;
+    min-height: 1000px;
+}
+
+.bloco-termos-uso .bloco-termos {
+    font-weight: 500;
+    color: #313131;
+    font-size: 18px;
+}
+
+.bloco-termos-uso .bloco-termos > div{
+    padding-top: 100px;
+}
+
+.bloco-termos-uso .bloco-termos .tituloPrincipal {
+    font-size: 23px;
+    font-weight: bold;
+    color: #f1af7b;
+}
+
+.bloco-termos-uso .bloco-termos .tituloSegundario {
+    font-size: 15px;
+    font-weight: bold;
+    color: #adadad;
+}
+
+.bloco-termos-uso .bloco-termos .bloco-txt .tituloMenuTermos {
+    font-size: 14px;
+    font-weight: bold;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.bloco-termos-uso .bloco-termos .bloco-txt .texto-titulo {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #f1af7b;
+}
+.bloco-termos-uso .bloco-termos .bloco-txt {
+    margin-top: 35px;
+}
+
+.bloco-termos-uso .bloco-termos .texto {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 993px){
+    /* Termo de uso */
+    .bloco-termos-uso .side-bar-termos {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+
+    .bloco-termos-uso .texto-termos {
+        flex-basis: 75%;
+        max-width: 75%;
+        padding: 10px 50px;
+    }
+    .bloco-termos-uso  .bloco-side-bar {
+        top: 30px;
+        position:absolute;
+    }
+}

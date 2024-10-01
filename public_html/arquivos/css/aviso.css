@@ -1,0 +1,136 @@
+.campo-valido{
+    border-color: #28a745 !important;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url("/arquivos/imagens/ok.png") !important;
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+.campo-invalido{
+    border-color: #dc3545 !important;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url("/arquivos/imagens/erro.png") !important;
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+.info-invalido{
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+#bg_aviso{
+	background-color:#000;
+	display:none;
+	position:fixed;
+	height:1400px;
+	left:0;
+	top:0;
+	width:100%;
+	z-index:77777;
+}
+#msg_aviso{
+	left:0;
+	position:fixed;
+	top:245px;
+	width:100%;
+	z-index:77778;
+	text-align:center;
+}
+#msg_aviso .aviso{
+	background:url("/arquivos/imagens/erro.png") no-repeat scroll 10px 9px #e5e8f0;
+	display:inline-block;
+	padding:7px 7px 5px 45px;
+	color:#1a1a1a;
+	border:1px solid #dc3300;
+}
+#msg_aviso .aviso.ok{
+	background:url("/arquivos/imagens/ok.png") no-repeat scroll 10px 9px #e5e8f0;
+	border-color:#33cc33;
+}
+#msg_aviso .text{
+	cursor:default;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:24px;
+	display:inline-block;
+	max-width:800px;
+}
+#msg_aviso .botao,
+#msg_aviso .botao .dir,
+#msg_aviso .botao .meio{
+	display:inline-block;
+}
+#msg_aviso .botao{
+	cursor:pointer;
+	float:right;
+	margin:-1px 0 0 10px;
+	border:1px solid #ccc;
+	color:#333;
+}
+#msg_aviso .botao:hover .meio{
+	background-color:#999;
+}
+
+#msg_aviso .botao .meio{
+	padding:3px 9px;
+}
+
+#msg_aviso .confirmacao{
+	padding:11px 15px;
+	min-width:450px;
+	max-width:630px;
+}
+#msg_aviso .confirmacao .titulo{
+	height:35px;
+}
+#msg_aviso .confirmacao .texto{
+	text-align:justify;
+}
+#msg_aviso .confirmacao .botoes{
+	margin:30px auto 0;
+	width:80%;
+}
+#msg_aviso .confirmacao .botao{
+	position:static;
+	float:left;
+	width:70px;
+	margin:0;
+}
+#msg_aviso  .confirmacao .fechar{
+	float:right;
+}
+
+#telaCarregando{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #2B2C2F;
+	opacity: 0.8;
+	z-index: 99999;
+}
+#telaCarregando img{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+#telaCarregando .txtCarregando {
+    position: fixed;
+    left: 50%;
+    top: calc(50% + 45px);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: #fff;
+}

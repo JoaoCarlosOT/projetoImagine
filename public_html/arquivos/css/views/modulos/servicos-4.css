@@ -1,0 +1,147 @@
+.bloco-servicos4{
+    margin: 60px 0;
+}
+.bloco-servicos4 .barra_titulo{
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+.bloco-servicos4 .barra_titulo .titulo{
+	flex-grow: 1;
+    flex-basis: 0;
+}
+.bloco-servicos4 .galeriaServicos4{
+	padding-top: 30px;
+}
+.bloco-servicos4 .owl-carousel .owl-stage {
+	display: flex;
+	align-items: center;
+}
+
+.bloco-servicos4 .owl-carousel .item{
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 30px;
+	position: relative; 
+}
+.bloco-servicos4 .owl-carousel .owl-dots{
+	position: static;
+	opacity: 1;
+	margin-top: 10px;
+}
+.bloco-servicos4 .owl-dots .owl-dot{
+	background: #0A0F28;
+}
+.bloco-servicos4 .owl-dots .owl-dot.active{
+	background: var(--cor-principal);
+}
+.bloco-servicos4 .owl-item img{
+	object-fit: cover;
+}
+.bloco-servicos4 .owl-item.center{
+    z-index: 999;
+}
+.bloco-servicos4 .owl-item.center .item{
+    width: 130%;
+    margin-left: -15%;
+    transition: .2s ease;
+}  
+.bloco-servicos4 .item .base-fundo{
+    position: absolute;
+	bottom: 40px;
+	left: 50px;
+	right: 50px;
+	max-width: 70%;
+    margin-bottom: 0;
+	text-align: left;
+    opacity: 1;
+	transition: .2s ease;
+}
+.bloco-servicos4 .item .titulo {
+	color: #fff;
+	font-weight: 300;
+	line-height: 33px;
+	font-size: 26px; 
+	max-width: 190px; 
+} 
+.bloco-servicos4 .item .caixa-sobra .descricao {
+	color: #fff;
+	margin: 20px 0;
+}
+.bloco-servicos4 .owl-item.center .item .base-fundo .botao{
+	/* padding: 10px 40px; */
+}
+.bloco-servicos4 .owl-item.center .item .base-fundo,
+.bloco-servicos4 .owl-item.center ~ .owl-item .item .base-fundo{
+	left: auto;
+    text-align: right;
+}
+.bloco-servicos4 .owl-item.center .item .base-fundo .titulo,
+.bloco-servicos4 .owl-item.center ~ .owl-item .item .base-fundo .titulo{
+	margin-left: auto;
+}
+
+.bloco-servicos4 .owl-item.center .item .base-fundo .botao,
+.bloco-servicos4 .owl-item.center ~ .owl-item .item .base-fundo .botao{
+	margin-left: auto;
+}
+.bloco-servicos4 .item .caixa-sobra{
+	/* box-shadow: 0 0 103px 127px #222742; */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+/* .bloco-servicos4 .item .caixa-flutuante{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(10, 15, 40, .9);
+	padding: 30px;
+	color: #fff;
+	text-align: left;
+	font-size: 18px;
+	line-height: 25px;
+	display: block;
+	top: 100%;
+	bottom: -100%;
+	left: 0;
+	transition: .3s ease;
+	position: absolute;
+}
+.bloco-servicos4 .item .caixa-flutuante h3 {
+	color: var(--cor-principal);
+	font-weight: 300;
+	line-height: 33px;
+	font-size: 26px;
+	margin-bottom: 1rem;
+} 
+.bloco-servicos4 .item .caixa-flutuante p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}  */
+.bloco-servicos4 .item .caixa-sobra .hidden{
+    transform: translateY(calc(100% + 40px));
+    /* margin-bottom: calc(-100%); */
+	height: 0;
+    opacity: 0;
+	transition: .5s ease;
+    /* display: none; */
+}
+.bloco-servicos4 .item picture:hover ~ .caixa-sobra .hidden,
+.bloco-servicos4 .item .caixa-sobra:hover .hidden{
+    transform: translateY(0);
+    /* margin-bottom: 0; */
+	height: 100%;
+    opacity: 1;
+    /* display: block; */
+}
+/* .bloco-servicos4 .item picture:hover ~ .caixa-flutuante, 
+.bloco-servicos4 .item .caixa-flutuante:hover{
+	top: 0;
+	border: 0; 
+}
+.bloco-servicos4 .item picture:hover ~ .caixa-sobra, 
+.bloco-servicos4 .item .caixa-flutuante:hover ~ .caixa-sobra{
+	display: none;
+} */

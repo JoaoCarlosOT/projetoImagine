@@ -1,0 +1,249 @@
+.zoom {
+	display:inline-block;
+	position: relative;
+}
+.zoom img {
+	display: block;
+}
+.zoom img::selection { background-color: transparent; }
+
+
+
+.blocos_servico_pc .bloco_descricao {
+	display: flex; 
+	gap: 20px;
+}
+.layout-produto {
+	margin: 60px 0;
+}  
+.blocos_servico_pc .bloco_descricao .bloco{
+	width: 50%;
+}
+.blocos_servico_pc .bloco_descricao #imagensProdutos .base{
+	max-width: 500px;
+	margin: 0 auto;
+}
+.blocos_servico_pc .bloco_descricao #imagensProdutos .imgPrincipal{
+	margin-bottom: 20px;
+}
+.blocos_servico_pc .bloco_descricao #imagensProdutos .btnsCaroseulContent .item img{
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+	cursor: pointer;
+}
+.blocos_servico_pc .bloco_descricao #imagensProdutos .btnsCaroseulContent .item img.active{
+	border: 1px solid #000;
+}
+.blocos_servico_pc .bloco_descricao .bloco.bc2 {
+	font-size: 17px;
+	position: relative;
+	/* padding: 0px 25px; */
+}
+
+.blocos_servico_pc .bloco_descricao .valor {
+	margin-bottom: 20px;
+}
+
+.blocos_servico_pc .bloco_descricao .valor span {
+	font-size: 30px;
+	font-weight: bold;
+}
+.blocos_servico_pc .bloco_descricao .subtitulo {
+	margin-bottom: 20px;
+}
+
+.blocos_servico_pc .bloco_descricao .preco_de {
+	margin-top: 20px;
+	text-decoration: line-through;
+} 
+
+.blocos_servico_pc .btn-prod-whats {
+	background: #53CE5D;
+	/* background: #25d366; */
+	color: #fff;
+	padding: 5px;
+	max-width: 100%;
+}
+.blocos_servico_pc .btn-prod-whats em{
+	font-size: 20px;
+}
+.blocos_servico_pc .b_add{
+	display: flex;
+	margin: 5px 0;
+	gap: 5px;
+}
+.blocos_servico_pc .b_add .quantidade{
+	width: 70px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: none;
+	background: #fff;
+	border: 1px solid #F5F5F5;
+	font-size: 16px;
+	box-shadow: 0 2px 2px #00000014;
+	font-weight: 700;
+	text-align: center;
+}
+.blocos_servico_pc .b_add .btn-produto {
+	width: 100%;
+	max-width: 100%;
+} 
+
+.blocos_servico_pc .descricao_grande{
+	margin: 60px 0;
+	border-radius: 5px;
+	background-color: #F5F5F5;
+	padding: 20px;
+}
+.blocos_servico_pc .descricao_grande .titulo{
+	margin-bottom: 20px;
+}
+.formas-pagamento-lista{
+	margin-top: 30px;
+    border: 1px solid #dcdcdc;
+    padding: 0 10px;
+}
+.formas-pagamento-lista ul{
+	list-style: none;
+}
+.formas-pagamento-lista ul li .heading{
+	padding: 10px 0;
+    /* border-bottom: 1px solid #dcdcdc; */
+	display: flex;
+    justify-content: space-between;
+}
+.formas-pagamento-lista ul li .heading img{
+	max-height: 20px;
+}
+.formas-pagamento-lista ul li .heading .texts{
+    font-weight: 700;	
+	font-size: 16px;
+	padding-right: 10px;
+}
+.formas-pagamento-lista ul li .infor{
+	font-size: 14px;
+	padding: 10px;
+    /* border-bottom: 1px solid #dcdcdc; */
+}
+.formas-pagamento-lista ul li .border{
+    border-bottom: 1px solid #dcdcdc;
+}
+.formas-pagamento-lista ul li:last-child .border:last-child {
+	/* Your styles here */
+    border-bottom: none;
+}
+@media(max-width:992px){
+	.blocos_servico_pc .bloco_descricao {
+		flex-direction: column;
+		gap: 60px;
+	}  
+	.blocos_servico_pc .bloco_descricao .bloco {
+		width: 100%;
+	}
+}
+/* formulario */
+.cta-servicos{
+    margin: 60px 0;
+}
+.cta-servicos .formCta .corpo-form{
+	display: flex;
+	gap: 10px;
+	flex-grow: 1;
+	align-items: center;
+}
+.cta-servicos .formCta .blocos-form{
+	display: flex;
+	background: #fff;
+	padding: 30px;
+	border: 2px solid #ed8534;
+	position: relative;
+	gap: 10px;
+	align-items: center;
+}
+.cta-servicos .formCta .blocos-form .linha{
+    display: flex;
+    align-items: center;
+	flex-grow: 1;
+}
+.cta-servicos .formCta .form-txt{
+	width: 255px;
+	margin-bottom: 0;
+}
+.cta-servicos .formCta .tituloBarra3{    
+    font-size: 30px;
+    line-height: 30px;
+}
+.cta-servicos .formCta input, .cta-servicos .formCta select, .cta-servicos .formCta textarea{
+	background: #EAE9EA;
+	border: none;
+}
+.cta-servicos .formCta{
+    /* marbottom: 50px; */
+    width: 100%;
+	position: relative;
+    z-index: 1;
+}
+.cta-servicos .formCta .blocos-form-base{
+	position: absolute;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    -webkit-width: calc(100% + 16px);
+    width: calc(100% + 16px);
+	height: calc(100% + 16px);
+    background: #ed8534;
+    opacity: .2;
+	z-index: -1;
+}
+.cta-servicos .formCta .blocos-form-base-ciclo {
+    -webkit-animation: widgetPulseForm infinite 1.5s;
+    animation: widgetPulseForm infinite 1.5s;
+}
+.cta-servicos .formCta .blocos-form-base-ciclo {
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #ed8534;
+	z-index: -1;
+}
+.cta-servicos .formCta .btn{
+    max-width: 100%;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 0;
+}
+@keyframes widgetPulseForm {
+	50% {
+		-webkit-transform: scale(1,1);
+		transform: scale(1,1);
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: scale(1.1,1.5);
+		transform: scale(1.1,1.5);
+		opacity: 0;
+	}
+}
+
+@media (max-width: 768px){ 
+	/* formulario */
+	.cta-servicos .formCta .form-txt {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.cta-servicos .formCta .blocos-form {
+		flex-direction: column;
+	}
+	.cta-servicos .formCta .corpo-form {
+		flex-direction: column;
+		width: 100%;
+	}
+	.cta-servicos .formCta .blocos-form .linha{
+		width: 100%;
+	}
+}

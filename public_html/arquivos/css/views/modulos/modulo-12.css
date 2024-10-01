@@ -1,0 +1,35 @@
+.modulo12{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.modulo12 .blocos{
+    margin-top: 60px;
+    background-color: var(--cor-principal);
+    border-radius: 25px;
+    display: flex;
+    gap: 20px;
+    padding: 60px 40px;
+    color: #fff;
+    align-items: center;
+}
+.modulo12 .blocos .bloco.lista ul li{
+    margin-bottom: 20px;
+}
+.modulo12 .blocos .bloco.lista ul li::marker {
+    color: #000; 
+}
+.modulo12 .blocos .bloco.lista{
+    width: 40%;
+}
+.modulo12 .blocos .bloco.imag{
+    width: 60%;
+}
+@media(max-width: 992px){
+    .modulo12 .blocos{
+        flex-direction: column;
+    }
+    .modulo12 .blocos .bloco.lista,
+    .modulo12 .blocos .bloco.imag{
+        width: 100%;
+    }
+}
