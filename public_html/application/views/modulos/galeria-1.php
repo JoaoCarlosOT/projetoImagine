@@ -1,6 +1,6 @@
 <?php
 $controller->load->model('site/Site_model_paginas', 'model_site');
-$galeria = $controller->model_site->getGaleria(3);
+$galeria = $controller->model_site->getGaleria(4);
 if(empty($galeria->fotos)) return;
 
 $controller->load->library('Imgno_imagem', '', 'imagineImagem');
@@ -16,7 +16,7 @@ $dir_p = '/arquivos/imagens/galeria/';
 			<div class="owl-carousel">
 				<?php foreach($galeria->fotos as $foto_extra):?>
 					<div class="item">
-						<img src="<?=$controller->imagineImagem->otimizar($dir_p.$foto_extra->imagem, 230, 130, false, false, 80); ?>" title="" alt="">
+						<img src="<?=$controller->imagineImagem->otimizar($dir_p.$foto_extra->imagem, 500, 174, true, false, 80); ?>" title="" alt="" class="img_galeria">
 					</div>
 				<?php endforeach;?>
 			</div>
@@ -104,3 +104,11 @@ $dir_p = '/arquivos/imagens/galeria/';
 		});	 
 	});	 
 </script>
+
+<style>
+	.img_galeria{
+		padding: 20px;
+		width: 300px;
+	}
+	
+</style>
