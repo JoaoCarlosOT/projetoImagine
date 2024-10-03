@@ -22,7 +22,13 @@ if($bignumber["bigNumber"]){
                     <div class="bloco">
                         <?php if($bigNumber['classFontello']):?><em class="<?=$bigNumber['classFontello']?>"></em><?php endif;?>
                             
-                            <div class="txt2"><//?=$bigNumber['prefixo']?><span class="numero" inicio="0" fim="<?=preg_replace('/[^0-9]/', '', $bigNumber['numero'])?>"><?=$bigNumber['numero']?></span><?=$bigNumber['sufixo']?></div>
+                            <div class="txt2">
+                                <//?=$bigNumber['prefixo']?>
+                                    <span class="numero">
+                                        <?=$bigNumber['numero']?>
+                                    </span> 
+                                <?=$bigNumber['sufixo']?>
+                            </div>
 
                         <?php if($bigNumber['texto']):?>
                             <div class="textoPadrao textoAbaixo"><?=$bigNumber['texto']?></div>

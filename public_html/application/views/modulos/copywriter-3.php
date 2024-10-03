@@ -7,7 +7,7 @@
     $controller->load->library('Imgno_util', '', 'ImgnoUtil');
     $controller->load->model('modulos/modulos_model_copywriter', 'model_copywriter');
     $config_copy = $controller->model_copywriter->buscar_config();
-    $copywriter = $controller->model_copywriter->buscar_copywriter(1);
+    $copywriter = $controller->model_copywriter->buscar_copywriter(3);
     if(!$copywriter) return;
 
     // background color do bloco
@@ -94,7 +94,7 @@
 
     $dir_p = '/arquivos/imagens/copywriter/';
 ?>
-<div class="copywriter-blocos <?=(!$tipo_corte && $background_color?'back ':($tipo_corte?$tipo_corte:' margin '))?> modelo-<?=$copywriter['modelo']?>" style="<?=($background_color?$background_color:'')?>" id="copywriter-1">
+<div class="copywriter-blocos <?=(!$tipo_corte && $background_color?'back ':($tipo_corte?$tipo_corte:' margin '))?> modelo-<?=$copywriter['modelo']?>" style="<?=($background_color?$background_color:'')?>" id="copywriter-3">
     <div class="container">
         <div class="itens <?=$class_pos_tex?>">
             <div class="item texts animation <?=$class_animation_1?>">
@@ -103,11 +103,11 @@
                 <?php if($copywriter['descricao']):?><div class="textoPadrao descricao" style="<?=$cor_descricao?>"><?=$copywriter['descricao']?></div><?php endif;?>
                 <?php if($copywriter['text_botao'] && $copywriter['link']):?>
                     <div class="botao">
-                        <a href="<?=$copywriter['link']?>" class="button" target="_blank" title="<?=$copywriter['text_botao']?>"><?=$copywriter['text_botao']?></a>
+                        <a href="<?=$copywriter['link']?>" class="btn" target="_blank" title="<?=$copywriter['text_botao']?>"><?=$copywriter['text_botao']?></a>
                     </div>
                 <?php elseif($copywriter['text_botao']):?>
                     <div class="botao">
-                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55<?=preg_replace('/[^0-9]/', '', $config['telefone1']);?>&text=Olá, Vim do site e gostaria de mais informações" class="button"  id="botao_copwriter" target="_blank" title="<?=$copywriter['text_botao']?>"><?=$copywriter['text_botao']?></a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55<?=preg_replace('/[^0-9]/', '', $config['telefone1']);?>&text=Olá, Vim do site e gostaria de mais informações" class="btn"  id="botao_copwriter" target="_blank" title="<?=$copywriter['text_botao']?>"><?=$copywriter['text_botao']?></a>
                     </div>
                 <?php endif;?>
             </div>
@@ -143,15 +143,3 @@
         });	
     </script>
 <?php endif;?>
-
-<style>
-    .button{
-        background-color: #28a6d9;
-        width: 250px;
-        height: 48px;
-        display: flex;
-        border-radius: 20px;
-        align-items: center;
-        justify-content: center;
-    }
-</style>

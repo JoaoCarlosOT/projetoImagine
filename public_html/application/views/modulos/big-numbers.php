@@ -64,3 +64,9 @@ if($bignumber["bigNumber"]){
         <?php endif;?>
     </div>
 </div>
+
+<style>
+    .blocos-bigNumbers{
+        background-color:  #f1f5ff;
+    }
+</style>

@@ -12,7 +12,7 @@ if(!$faqs) return;
         <div class="blocos">
             <?php foreach($faqs as $faq):?>
                 <div class="bloco">
-                    <div class="pergunta tituloPadrao4"><?=$faq->pergunta?><em class="icon-down-open"></em></div>
+                    <div class="pergunta tituloPadrao4"><?=$faq->pergunta?><em class="icon-plus"></em></div>
                     <div class="resposta textoPadrao"><?=$faq->resposta?></div>
                 </div>
             <?php endforeach;?>

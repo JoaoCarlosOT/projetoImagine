@@ -20,7 +20,7 @@
 	<div class="menus-topo">
 		<div class="logomarca">
 			<a href="/" title="logo">
-                <img src="/arquivos/imagens/meta.png" alt="logo" title="logo" />
+                <img src="/arquivos/imagens/logo_despacho_rapido.png" alt="logo" title="logo" />
             </a>
         </div>
 		<div class="menuPrincipal"> 
