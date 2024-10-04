@@ -12,14 +12,14 @@ if($bignumber["bigNumber"]){
 }
 
 ?>
-<div class="blocos-bigNumbers">
-    <div class="container"> 
-        <h3 class="tituloPadrao textLeft titulo"><?=$bignumber["nome"]?></h3>
+<div class="blocos-bigNumbers3">
+    <div class="box"> 
+        <h3 class="title"><?=$bignumber["nome"]?></h3>
 
         <?php if($bignumber["bigNumber"]): ?>
-            <div class="blocos" id="bigNumber-lista">
+            <div class="caixas" id="bigNumber-lista">
                 <?php foreach($bignumber["bigNumber"] as $key => $bigNumber):?>
-                    <div class="bloco">
+                    <div class="caixa">
                         <?php if($bigNumber['classFontello']):?><em class="<?=$bigNumber['classFontello']?>"></em><?php endif;?>
                             
                             <div class="txt2">
@@ -72,10 +72,49 @@ if($bignumber["bigNumber"]){
 </div>
 
 <style>
-    /* .blocos-bigNumbers3{
+    .blocos-bigNumbers3{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content:center;
+        flex-direction:column;
         background-color: #fff;
-    } */
+        flex-wrap: wrap;
+        height: 300px;
+        width: 100%;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .title{
+        color: black;
+        font-size: 40px;
+        font-weight: 800;
+        width: 400px;
+        line-height: 50px;
+    }
+    .caixas{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;    
+    }
+    .caixa{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;
+        width: 146px;
+        height: 130px;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 26px;
+    }
+    .txt2{
+        font-size: 20px;
+        font-weight: 700;
+    }
 </style>
