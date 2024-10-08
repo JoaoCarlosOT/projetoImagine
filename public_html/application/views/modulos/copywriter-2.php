@@ -95,12 +95,14 @@
     $dir_p = '/arquivos/imagens/copywriter/';
 ?>
 <div class="copywriter-blocos <?=(!$tipo_corte && $background_color?'back ':($tipo_corte?$tipo_corte:' margin '))?> modelo-<?=$copywriter['modelo']?>" style="<?=($background_color?$background_color:'')?>" id="copywriter-6">
-    <div class="container">
-        <div class="itens <?=$class_pos_tex?>">
-            <div class="item texts animation <?=$class_animation_1?>">
-                <?php if($copywriter['titulo']):?><h3 class="<?=$classe_titulo?>" style="<?=$cor_titulo?>"><?=$copywriter['titulo']?></h3><?php endif;?>
-                <?php if($copywriter['headline']):?><div class="<?=$classe_headline?> subtitulo" style="<?=$cor_headline?>"><?=$copywriter['headline']?></div><?php endif;?>
-                <?php if($copywriter['descricao']):?><div class="textoPadrao descricao" style="<?=$cor_descricao?>"><?=$copywriter['descricao']?></div><?php endif;?>
+   
+        <div id="itens" class="<?=$class_pos_tex?>">
+            <div id="item" class="item texts animation <?=$class_animation_1?>">
+                <div class="conteudo">
+                <?php if($copywriter['titulo']):?><h3 id="title_cop" class="<?=$classe_titulo?>" style="<?=$cor_titulo?>"><?=$copywriter['titulo']?></h3><?php endif;?>
+
+                <?php if($copywriter['headline']):?><div id="title_headline" class="<?=$classe_headline?> subtitulo" style="<?=$cor_headline?>"><?=$copywriter['headline']?></div><?php endif;?>
+
                 <?php if($copywriter['text_botao'] && $copywriter['link']):?>
                     <div class="botao">
                         <a href="<?=$copywriter['link']?>" class="btn" target="_blank" title="<?=$copywriter['text_botao']?>"><?=$copywriter['text_botao']?></a>
@@ -110,8 +112,9 @@
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55<?=preg_replace('/[^0-9]/', '', $config['telefone1']);?>&text=Olá, Vim do site e gostaria de mais informações" class="btn"  id="botao_copwriter" target="_blank" title="<?=$copywriter['text_botao']?>"><?=$copywriter['text_botao']?></a>
                     </div>
                 <?php endif;?>
-            </div>
-            <div class="item imagem animation <?=$class_animation_2?>">
+                </div>
+
+                <div class="item imagem animation <?=$class_animation_2?>">
                 <?php if($copywriter['imagem']):?>
                     <img src="<?=$controller->imagineImagem->otimizar($dir_p.$copywriter['imagem'], 700, $copywriter['altura'], true, $copywriter['cortar'], 80); ?>" title="<?=$copywriter['text_botao']?>" alt="<?=$copywriter['text_botao']?>">
                 <?php elseif($copywriter['link_yt']):?>
@@ -119,9 +122,20 @@
                     <iframe <?=!empty($copywriter['altura'])?'height="'.$copywriter['altura'].'"':''?> title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     
                 <?php endif;?>
+                </div>
+
+                <?php if($copywriter['descricao']):?>
+                    <div class="describe" style="<?=$cor_descricao?>">
+                        <!-- <p class="text_desc">Tipos de serviços</p> -->
+                        <?=$copywriter['descricao']?>
+                    </div>
+                <?php endif;?>
+
             </div>
+
+           
         </div>
-    </div>
+
 </div>
 
 <?php if(!$copywriter['imagem'] && $copywriter['link_yt']):?>
@@ -143,3 +157,74 @@
         });	
     </script>
 <?php endif;?>
+
+<style>
+    #copywriter-6{
+        width: 100%;
+    }
+    #item{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #itens{
+        margin: auto;
+    }
+    .conteudo{
+        gap: 15px;
+        width: 340px;
+    }
+
+    .btn{
+        background-color: #d42731;
+    width: 252px;
+    height: 49px;
+    border-radius: 39px;
+    margin: 15px;
+    align-items: center;
+    font-weight: 300;
+    justify-content: center;
+    display: flex;
+    font-size: 21px;
+    }
+
+    #title_cop{
+        margin: 18px;
+    color: #1e1e1e;
+    font-weight: 400;
+    width: 376px;
+    font-size: 244%;
+    }
+    #title_headline{
+        margin: 18px;
+    }
+
+    .describe{
+        width: 249px;
+    border-radius: 35px;
+    padding: 12px;
+    background-color: #26a5d7;
+    color: #fff;
+    font-size: 20px;
+    line-height: 58px;
+    height: 285px;
+    text-align: center;
+    margin: 20px;
+    }
+
+    /* .text_desc{
+        content: 'Tipos de serviços';
+        width: 200px;
+        border-radius: 15px;
+        padding: 9px;
+        margin: auto;
+        background-color: black;
+        color: #fff;
+        position: relative;
+        top: -40px;
+    } */
+</style>

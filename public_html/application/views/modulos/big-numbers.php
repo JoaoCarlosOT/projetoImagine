@@ -84,33 +84,48 @@ if($bignumber["bigNumber"]){
         max-width: 1000px;
         margin-right: auto;
         margin-left: auto;
+        font-size: 60px;
     }
     .title_1{
-        width: 500px;
         line-height: 50px;
         font-weight: 600;
-        color: #d9242c;
-        font-size: 40px;
+        color: black;
+        font-size: 60%;
     }
     .caixas_1{
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 17px;
         justify-content: center;
         margin-top: 40px;
     }
     .caixa_1{
         margin-top: 60px;
-        width: calc(25% - 8px);
+        width: 220px;
         text-align: left;
-        color: #fff;
+        color: black;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
-        height: 200px;
+        /* height: 200px; */
         border-radius: 30px;
+    }
+    .caixa_1:nth-child(1){
+        background-color: #fff;
+        border: 2px solid black;
+    }
+    .caixa_1:nth-child(2){
         background-color: #f1f5ff;
+        border: 2px solid #f1f5ff;
+    }
+    .caixa_1:nth-child(3){
+        background-color: #fff;
+        border: 2px solid black;
+    }
+    .caixa_1:nth-child(4){
+        background-color: #f1f5ff;
+        border: 2px solid #f1f5ff;
     }
     .text{
         color: black;
@@ -120,5 +135,11 @@ if($bignumber["bigNumber"]){
         font-size: 18px;
         line-height: normal;
         margin-left: 27px;
+    }
+
+    @media screen and(max-width:1880px){
+    .title_1{
+       margin: auto;
+    }
     }
 </style>

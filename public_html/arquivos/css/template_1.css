@@ -1,233 +1,248 @@
-:root{
-    --font-family-titulo: 'Roboto', sans-serif;
-    --font-family-headline: 'Roboto', sans-serif;
-    --font-family-texto: 'Arial', sans-serif;
-    --cor-principal: #26a6d7;
-    --cor-secundaria: #000;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	--font-family-titulo: @import
+		url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+	--font-family-headline: @import
+		url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+	--font-family-texto: @import
+		url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+	--cor-principal: #26a6d7;
+	--cor-secundaria: #000;
 }
 /*Padrao*/
-*, 
+*,
 *:after,
 *:before {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-body,html {
-    overflow-x: hidden;
+body,
+html {
+	overflow-x: hidden;
 }
-html, body{
-	font-family: var(--font-family-texto);
-	font-size:14px;
+html,
+body {
+	font-family: "Montserrat", sans-serif !important;
+	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.5;
-	letter-spacing:normal;
+	letter-spacing: normal;
 	scroll-behavior: smooth;
 }
-body{
-	overflow-x:hidden;
-	background: #FFF;
+body {
+	overflow-x: hidden;
+	background: #fff;
 	color: #333;
 	position: relative;
 	left: 0px;
 	transition: 0.3s all;
 }
-ol,ul{
+ol,
+ul {
 	list-style-position: inside;
 }
-a{
+a {
 	text-decoration: none;
 	color: inherit;
 }
-img{
+img {
 	max-width: 100%;
 	vertical-align: middle;
 }
-h1,h2{
+h1,
+h2 {
 	font-weight: unset;
 	font-size: 1em;
 }
-small{
+small {
 	font-size: 0.7em;
 }
 
-#body{
+#body {
 	overflow: hidden;
 }
 .container {
-    width: 91%;
-    max-width: 1440px;
-    margin-right: auto;
-    margin-left: auto;
+	width: 91%;
+	max-width: 1440px;
+	margin-right: auto;
+	margin-left: auto;
 }
-.textCenter{
+.textCenter {
 	text-align: center;
 }
 .tituloPadrao {
 	font-family: var(--font-family-titulo);
 	font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 26px;
-    line-height: 26px;
-    color: #000;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 26px;
+	line-height: 26px;
+	color: #000;
 }
 .tituloPadrao2 {
 	font-family: var(--font-family-titulo);
 	font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 20px;
-    line-height: 20px;
-    color: #000;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 20px;
+	line-height: 20px;
+	color: #000;
 }
 .tituloPadrao3 {
 	font-family: var(--font-family-titulo);
 	/* font-weight: 700; */
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 35px;
-    line-height: 35px;
-    color: #000;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 35px;
+	line-height: 35px;
+	color: #000;
 }
 .tituloPadrao4 {
-    font-family: var(--font-family-titulo);
+	font-family: var(--font-family-titulo);
 	font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 16px;
-    line-height: 16px;
-    color: #000;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 16px;
+	line-height: 16px;
+	color: #000;
 }
 .tituloPadrao5 {
-    font-family: var(--font-family-titulo);
+	font-family: var(--font-family-titulo);
 	font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-size: 18px;
-    line-height: 16px;
-    color: #848688;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 18px;
+	line-height: 16px;
+	color: #848688;
 }
-.headline{
+.headline {
 	font-family: var(--font-family-headline);
 	font-size: 18px;
 }
-.headline2{
+.headline2 {
 	font-family: var(--font-family-headline);
 	font-size: 20px;
 }
-.textoPadrao{
+.textoPadrao {
 	font-family: var(--font-family-texto);
 	font-size: 16px;
 }
-.textCenter{
+.textCenter {
 	text-align: center;
 }
-.textRight{
+.textRight {
 	text-align: right;
 }
-.textLeft{
+.textLeft {
 	text-align: left;
 }
-.owl-carousel{
+.owl-carousel {
 	display: block;
 }
 .btn {
 	text-align: center;
-    border-style: none;
-    padding: 14px 20px 15px;
-    display: block;
-    max-width: 340px;
-    background: var(--cor-principal);
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    box-shadow: 0 3px 6px 0 rgb(0 0 0/16%);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all .2s ease;
+	border-style: none;
+	padding: 14px 20px 15px;
+	display: block;
+	max-width: 340px;
+	background: var(--cor-principal);
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	box-shadow: 0 3px 6px 0 rgb(0 0 0/16%);
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.2s ease;
 }
-.btn:hover{
-	opacity: .6;
+.btn:hover {
+	opacity: 0.6;
 }
 .btn2 {
-    background: #121212;
-    padding: 10px 60px;
-    font-size: 16px;
-    color: #fff;
-    display: inline-block;
+	background: #121212;
+	padding: 10px 60px;
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
 	text-align: center;
-    cursor: pointer;
-    transition: all .2s ease;
+	cursor: pointer;
+	transition: all 0.2s ease;
 }
-.btn2:hover{
-	opacity: .6;
+.btn2:hover {
+	opacity: 0.6;
 }
 .btn3 {
-    color: #121212;
-    border: 1px solid #121212;
-    padding: 10px 30px;
-    display: inline-block;
-    font-size: 16px;
-	text-align: center;
-    cursor: pointer;
-    transition: all .2s ease;
-}
-.btn3:hover{
-	opacity: .6;
-}
-input, textarea,select { 
+	color: #121212;
+	border: 1px solid #121212;
+	padding: 10px 30px;
+	display: inline-block;
 	font-size: 16px;
-    line-height: 16px;
-    min-height: 48px;
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-family: var(--font-family-texto);
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.2s ease;
 }
-input[type="checkbox"],input[type="radio"] {
-    min-height: 14px;
-    height: 14px;
-    width: auto;
+.btn3:hover {
+	opacity: 0.6;
+}
+input,
+textarea,
+select {
+	font-size: 16px;
+	line-height: 16px;
+	min-height: 48px;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-family: var(--font-family-texto);
+}
+input[type="checkbox"],
+input[type="radio"] {
+	min-height: 14px;
+	height: 14px;
+	width: auto;
 }
 .linhaCompleta {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 .linhaCompleta .linha {
-    margin: 7px 5px;
+	margin: 7px 5px;
 }
 .campo-padrao {
-    border: 1px solid #848688;
-    color: #848688 !important;
-    height: 48px;
-    position: relative !important;
-    background: #fff;
-    border-radius: 8px;
+	border: 1px solid #848688;
+	color: #848688 !important;
+	height: 48px;
+	position: relative !important;
+	background: #fff;
+	border-radius: 8px;
 }
-.campo-padrao::placeholder{
+.campo-padrao::placeholder {
 	color: #848688 !important;
 }
 
 /* Exemplo 3 de campos */
 .input-container {
-    position: relative;
+	position: relative;
 }
 .input-container input,
 .input-container textarea {
-    padding: 10px;
-    font-size: 18px;
+	padding: 10px;
+	font-size: 18px;
 }
 .input-container label {
-    position: absolute;
-    top: 12px;
-    left: 10px;
-    pointer-events: none;
-    transition: 0.2s;
-    color: #333 !important;
-} 
-.input-container .iti--allow-dropdown label{
-    left: 55px;
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	pointer-events: none;
+	transition: 0.2s;
+	color: #333 !important;
+}
+.input-container .iti--allow-dropdown label {
+	left: 55px;
 }
 /* .input-container.linha-cta label{
     top: 19px;
@@ -237,57 +252,55 @@ input[type="checkbox"],input[type="radio"] {
 .input-container input:not(:placeholder-shown),
 .input-container textarea:focus,
 /* .input-container textarea:not(:placeholder-shown) */
-.input-container .not-placeholder-shown
-{
-    padding: 18px 10px 2px 10px;
+.input-container .not-placeholder-shown {
+	padding: 18px 10px 2px 10px;
 }
 .input-container input:focus + label,
 /* .input-container input:not(:placeholder-shown) + label, */
 .input-container textarea:focus + label,
 /* .input-container textarea:not(:placeholder-shown) + label  */
-.input-container .not-placeholder-shown + label 
-{
-    top: 6px;
-    font-size: 12px;
-    color: #333;
+.input-container .not-placeholder-shown + label {
+	top: 6px;
+	font-size: 12px;
+	color: #333;
 }
 .input-container textarea:not(:focus)::placeholder,
 .input-container input:not(:focus)::placeholder {
-    opacity: 0;
+	opacity: 0;
 }
 
 /* Paginação */
-.paginacao{
-    text-align:center;
-    padding:7px;
+.paginacao {
+	text-align: center;
+	padding: 7px;
 }
-.paginacao .item{
-    display:inline-block;
-    margin:0 5px 0 0;
-    color: #848688;
-    background: #fdfdfd;
-    padding:5px 10px 5px 10px;
-    border: 1px solid #dedbdb;
-    text-transform:uppercase;
-    font-size:13px;
+.paginacao .item {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	color: #848688;
+	background: #fdfdfd;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #dedbdb;
+	text-transform: uppercase;
+	font-size: 13px;
 }
-.paginacao .ultimo{
-    margin-right:0;
+.paginacao .ultimo {
+	margin-right: 0;
 }
-.paginacao .texto{
-    background: #d8d5d5;
-    color:#848688;
-    cursor:default;
+.paginacao .texto {
+	background: #d8d5d5;
+	color: #848688;
+	cursor: default;
 }
-.paginacao .link:hover{
-    background:#848688;
-    text-decoration: underline;
-    color:#fff;
+.paginacao .link:hover {
+	background: #848688;
+	text-decoration: underline;
+	color: #fff;
 }
-.paginacao .seta{
-    vertical-align:0;
-    line-height:15px;
-    font-size:15px;
+.paginacao .seta {
+	vertical-align: 0;
+	line-height: 15px;
+	font-size: 15px;
 }
 /* Padrao - fim*/
 
@@ -320,57 +333,57 @@ input[type="checkbox"],input[type="radio"] {
     will-change: auto
 }*/
 @media (min-width: 769px) {
-    :root {
-        --tamanho-reta: 30px;
-    }
+	:root {
+		--tamanho-reta: 30px;
+	}
 	.tituloPadrao {
 		font-size: 33px;
-        line-height: 33px;
+		line-height: 33px;
 	}
-    .tituloPadrao2 {
+	.tituloPadrao2 {
 		font-size: 25px;
-        line-height: 25px;
+		line-height: 25px;
 	}
-    .tituloPadrao3 {
+	.tituloPadrao3 {
 		font-size: 45px;
-        line-height: 45px;
+		line-height: 45px;
 	}
-    .tituloPadrao4 {
+	.tituloPadrao4 {
 		font-size: 18px;
-        line-height: 18px;
+		line-height: 18px;
 	}
-    .tituloPadrao5 {
+	.tituloPadrao5 {
 		font-size: 22px;
-        line-height: 2px;
+		line-height: 2px;
 	}
 }
 @media (min-width: 993px) {
-    :root {
-        --tamanho-reta: 60px;
-    }
-	.tituloPadrao{
+	:root {
+		--tamanho-reta: 60px;
+	}
+	.tituloPadrao {
 		font-size: 40px;
-        line-height: 40px;
+		line-height: 40px;
 	}
-    .tituloPadrao2{
+	.tituloPadrao2 {
 		font-size: 30px;
-        line-height: 30px;
+		line-height: 30px;
 	}
-    .tituloPadrao3{
+	.tituloPadrao3 {
 		font-size: 60px;
-        line-height: 60px;
+		line-height: 60px;
 	}
-    .tituloPadrao4 {
+	.tituloPadrao4 {
 		font-size: 20px;
-        line-height: 20px;
+		line-height: 20px;
 	}
-    .tituloPadrao5 {
+	.tituloPadrao5 {
 		font-size: 25px;
-        line-height: 25px;
+		line-height: 25px;
 	}
 }
-@media(max-width: 768px){
-    :root {
-        --tamanho-reta: 20px;
-    }
+@media (max-width: 768px) {
+	:root {
+		--tamanho-reta: 20px;
+	}
 }

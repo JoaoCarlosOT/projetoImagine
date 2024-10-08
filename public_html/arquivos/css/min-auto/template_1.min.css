@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
-	--font-family-titulo: "Roboto", sans-serif;
-	--font-family-headline: "Roboto", sans-serif;
-	--font-family-texto: "Arial", sans-serif;
+	--font-family-titulo: @import
+		url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+	--font-family-headline: @import
+		url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+	--font-family-texto: @import
+		url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 	--cor-principal: #fe751b;
 	--cor-secundaria: #000;
 }

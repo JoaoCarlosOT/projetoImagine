@@ -7,7 +7,7 @@
     $controller->load->library('Imgno_util', '', 'ImgnoUtil');
     $controller->load->model('modulos/modulos_model_copywriter', 'model_copywriter');
     $config_copy = $controller->model_copywriter->buscar_config();
-    $copywriter = $controller->model_copywriter->buscar_copywriter(1);
+    $copywriter = $controller->model_copywriter->buscar_copywriter(7);
     if(!$copywriter) return;
 
     // background color do bloco
@@ -98,7 +98,7 @@
     <div class="container">
         <div class="itens <?=$class_pos_tex?>">
             <div class="item texts animation <?=$class_animation_1?>">
-                <?php if($copywriter['titulo']):?><h3 class="<?=$classe_titulo?>" style="<?=$cor_titulo?>"><?=$copywriter['titulo']?></h3><?php endif;?>
+                <?php if($copywriter['titulo']):?><h3 id="title_cop1" class="<?=$classe_titulo?>" style="<?=$cor_titulo?>"><?=$copywriter['titulo']?></h3><?php endif;?>
                 <?php if($copywriter['headline']):?><div class="<?=$classe_headline?> subtitulo" style="<?=$cor_headline?>"><?=$copywriter['headline']?></div><?php endif;?>
                 <?php if($copywriter['descricao']):?><div class="textoPadrao descricao" style="<?=$cor_descricao?>"><?=$copywriter['descricao']?></div><?php endif;?>
                 <?php if($copywriter['text_botao'] && $copywriter['link']):?>
@@ -147,11 +147,18 @@
 <style>
     .button{
         background-color: #28a6d9;
-        width: 250px;
-        height: 48px;
-        display: flex;
-        border-radius: 20px;
-        align-items: center;
-        justify-content: center;
+    width: 252px;
+    height: 49px;
+    border-radius: 39px;
+    margin: 15px;
+    align-items: center;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;
+    font-size: 19px;
+    }
+
+    #title_cop1{
+        font-weight: 300;
     }
 </style>

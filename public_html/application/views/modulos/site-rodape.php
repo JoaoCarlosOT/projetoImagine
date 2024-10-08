@@ -23,26 +23,41 @@
     <section id="rodape-bloco" class="textoPadrao">
         <div class="container">
             <div class="footer-itens">
-                <div class="footer-1">
+                <div class="footers-1">
                     <div class="titulo-rodape"><?=$config['nome_empresa']?></div>
                     <div class="bloco">
                         <div class="txt1" style="max-width: 200px;"><?=$config['slogan']?></div>
+                        <input type="text" placeholder="Digite aqui seu e-mail" class="input_footer1">
+                    </div>
+                    <div>
+                        <h1>Central de atendimento</h1>
+
                     </div>
                 </div>
-                <div class="footer-2">
+                <div class="footers-2">
                     <div class="titulo-rodape"><?=$modulo_3['nome']?></div>
                     <div class="bloco aft-rodape">
                         <?=$modulo_3['descricao']?>
                     </div>
                 </div>
-                <div class="footer-3">
+                <div class="footers-3">
                     <div class="titulo-rodape"><?=$modulo_2['nome']?></div>
                     <div class="bloco aft-rodape">
                         <?=$modulo_2['descricao']?>
                     </div>
                 </div>
-                <div class="footer-4">
-                    <div class="titulo-rodape">Fale Conosco</div>
+                <div class="footers-4">
+                    <div class="titulo-rodape">Social</div>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footers-extra">
+                <div class="imagens">
                     <div class="bloco">
                         <?php if($config['telefone1']): ?>
                             <div class="txt whatsapp">
@@ -66,25 +81,14 @@
                         </div>
                         <?php endif; ?> 
                     </div>
-                </div>
-            </div>
-
-            <div class="footers-extra">
-                <div class="imagens">
-                    <!-- <div class="titulo-rodape">Logo</div>
-                    <div class="bloco textCenter"> 
-                        <div>
-                            <img src="/arquivos/imagens/logo.png" alt="logo" title="logo">
-                        </div>
-                    </div> -->
+                    
                 </div>  
 
-                <div class="paginas_contatos">
-                    <a href="/trabalhe-conosco.html" title="TRABALHE CONOSCO">TRABALHE CONOSCO</a> | 
-                    <a href="/contato.html" title="FALE CONOSCO">FALE CONOSCO</a> | 
-                    <a href="/lgpd.html#politica-privacidade" title="POLITICA DE PRIVACIDADE">POLITICA DE PRIVACIDADE</a>
-                </div>
+                
+                <img src="/arquivos/imagens/logo_despacho_rapido.png" alt="logo" title="logo">
+                      
             </div>
+            <hr>
 
             
             <!-- <?php if(!empty($configuracoesLP)):?>
@@ -118,29 +122,26 @@
             <?php endif;?> -->
 
 
-            <div class="bloco-endereco">
-                <div class="txt cnpj">
-                    <?php if($config['razao_social'] && $config['cnpj']){
-                        echo $config['razao_social'].' - CNPJ: '.$config['cnpj'];
-                    }else{
-                        echo $config['razao_social'].$config['cnpj'];
-                    }
-                    ?> 
-                </div>
-                <div class="txt endereco">
-                    <span><?=$config['endereco']?></span>
-                </div>
-            </div>
+           
 
         </div>
     </section>
 
-    <section id="copyright" class="">
-	    <div class="container">
-            <div class="blocos">
-        		<a href="https://www.imaginecomunicacao.com.br/" target="_blank" title="Agência Publicidade Digital" class="txt1">Desenvolvido por @Imagine Comunicação Digital</a>
-            </div>
-		</div>		
+    <section id="copyright" class="fundo">
+        <div class="box">
+                <div class="bloco-endereco">
+                    <a href="https://www.imaginecomunicacao.com.br/" target="_blank" title="Agência Publicidade Digital" class="txt1">Despacho Rápido. Todos os direitos reservados 2024</a>
+                    <?php if($config['razao_social'] && $config['cnpj']){
+                        echo $config['razao_social'].' - CNPJ: '.$config['cnpj'];
+                    }else{
+                        echo $config['razao_social'].$config['cnpj'];
+                        echo $config['endereco'];
+                    }
+                    ?> 
+                </div>
+                <p class="text-fundo">Política de Privacidade</p>
+		</div>	
+        
 	</section>
 </footer>
 
@@ -156,10 +157,59 @@
 </script>  
 
 <style>
+    .bloco-endereco{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
     .footere{
         padding:20px ;
         color: #fff;
 	    background-color: #01032a;
     }
+
+    .fundo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloco{
+        display: flex;
+        flex-direction: column;
+    }
+    .footers-extra{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    hr{
+        width: 100%;
+        margin: auto;
+        margin: 20px;
+    }
+    .input_footer1{
+        border-radius: 15px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .footers-1{
+        gap: 12px;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .text-fundo{
+        width: 200px;
+    }
+   
 </style>
 

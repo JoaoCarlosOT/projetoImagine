@@ -897,7 +897,7 @@
 }
 .blocos-bigNumbers .titulo {
 	color: rgb(0, 0, 0);
-	padding-left:75px ;
+	padding-left: 75px;
 }
 .blocos-bigNumbers .blocos {
 	display: flex;
@@ -1099,9 +1099,6 @@
 	}
 	#rodape .footer-itens > div {
 		flex-basis: 50%;
-	}
-	#rodape-bloco .footer-itens > div:nth-child(n + 2) {
-		border-left: 1px solid rgba(255, 255, 255, 0.4);
 	}
 }
 @media (min-width: 993px) {

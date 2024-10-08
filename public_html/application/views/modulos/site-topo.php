@@ -91,9 +91,13 @@
 
                         <li><a href="/blog.html" title="Blog">Rota do Sucesso</a></li>
                         <li><a href="/contato.html" title="Contato">Contato</a></li>
+
+                        <!-- <li><a href="/blog.html" title="Blog" class="link">Rastrear</a></li>
+                        <li><a href="/contato.html" title="Contato">Sou cliente</a></li> -->
                         <!-- <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=55<//?=preg_replace('/[^0-9]/', '', $config['telefone1']);?>&text=Olá, Vim do site e gostaria de mais informações" target="_blank" title="WhatsApp" class="whatsapp"><em class="icon-whatsapp"></em>Fale conosco</a></li> -->
                     </ul>
                 </div>
+
                 <div class="idiomas">
                     <div class="gtranslate_wrapper"></div>
                 </div>
@@ -148,6 +152,25 @@
             </div>
 
         </div>
+
+        <div class="header_buttons">
+                <nav>
+                    <button class="button1_header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                        <a href="#" class="link1">RASTREAR</a>
+                    </button>
+
+                    <button class="button2_header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                        </svg>
+                        <a href="#" class="link2">SOU CLIENTE</a>
+                    </button>
+                </nav>
+        </div> 
         
     </div>
 </div>
@@ -179,3 +202,70 @@
     });
 
 </script>
+
+
+<style>
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .link{
+        margin-left: 15px;
+    }
+    .header_buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+    }
+    .header_buttons>nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 12px;
+    }
+    .header_buttons>nav>button{
+        width: 162px;
+    height: 42px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    }
+    .header_buttons>nav>button>a{
+        text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    LETTER-SPACING: 3PX;
+    }
+
+    .button1_header{
+        margin-left: 14px;
+        background-color: #26a5d7;
+    }
+
+    .button2_header{
+        background-color: #df2326;
+    }
+
+    .menus-topo{
+        display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+    flex-direction: row;
+    }
+
+    svg{
+        color: #fff;
+    }
+
+    
+
+</style> 

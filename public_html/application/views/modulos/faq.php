@@ -70,21 +70,11 @@ if(!$faqs) return;
     .pergunta{
         color: #fff;
     }
-
-    /* .pergunta:nth-child(1) {
-        color: blue;
+    /* .pergunta:nth-child(odd){
+        color: #26a6d7 !important;
     }
-
-    .pergunta:nth-child(2) {
-        color: white;
-    }
-
-    .pergunta:nth-child(3) {
-        color: blue;
-    }
-
-    .pergunta:nth-child(4) {
-        color: white;
+    .pergunta:nth-child(even){
+        color: #fff !important;
     } */
 
 </style>

@@ -12,17 +12,21 @@ if($bignumber["bigNumber"]){
 }
 
 ?>
-<div class="blocos-bigNumbers">
-    <div class="container"> 
-        <h3 class="tituloPadrao textLeft titulo"><?=$bignumber["nome"]?></h3>
+<div class="blocos-bigNumbers2">
+    <div class="box_2"> 
+        <h3 class="title_2"><?=$bignumber["nome"]?></h3>
 
         <?php if($bignumber["bigNumber"]): ?>
-            <div class="blocos" id="bigNumber-lista">
+            <div class="caixas_2" id="bigNumber-lista">
                 <?php foreach($bignumber["bigNumber"] as $key => $bigNumber):?>
-                    <div class="bloco">
-                        <?php if($bigNumber['classFontello']):?><em class="<?=$bigNumber['classFontello']?>"></em><?php endif;?>
+                    <div class="caixa_2">
+                        <?php if($bigNumber['classFontello']):?><em id="icon-bigNumber2" class="<?=$bigNumber['classFontello']?>"></em><?php endif;?>
                             
-                            <div class="txt2"><?=$bigNumber['prefixo']?><span class="numero" inicio="0" fim="<?=preg_replace('/[^0-9]/', '', $bigNumber['numero'])?>"><?=$bigNumber['numero']?></span><?=$bigNumber['sufixo']?></div>
+                            <div class="txt2">
+                                <?=$bigNumber['prefixo']?>
+                                <span class="numero" inicio="0" fim="<?=preg_replace('/[^0-9]/', '', $bigNumber['numero'])?>"><?=$bigNumber['numero']?></span>
+                                <?=$bigNumber['sufixo']?>
+                            </div>
 
                         <?php if($bigNumber['texto']):?>
                             <div class="textoPadrao textoAbaixo"><?=$bigNumber['texto']?></div>
@@ -64,3 +68,74 @@ if($bignumber["bigNumber"]){
         <?php endif;?>
     </div>
 </div>
+
+<style>
+    .blocos-bigNumbers2{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction:column;
+        background-color: #26a5d7;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top:22px ;
+        padding-bottom: 13px;
+        color: #fff;
+    }
+    .box_2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 50%;
+    }
+    #icon-bigNumber2{
+        font-size: 30px;
+    }
+    .title_2{
+        font-size: 40px;
+        font-weight: 300;
+        width: 400px;
+        line-height: 50px;
+        margin: auto;
+    }
+    .caixas_2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;  
+        gap: 25px;
+        margin: auto;  
+    }
+    .caixa_2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 146px;
+        height: 130px;
+        border-radius: 20px;
+        margin: auto;
+        padding: 26px;
+        text-align: center;
+    }
+    .caixa_2:nth-child(1){
+        background-color: #1182ba;
+        border: 2px solid #1182ba;
+    }
+    .caixa_2:nth-child(2){
+        background-color: #26a6d7;
+        border: 2px solid #fff;
+    }
+    .caixa_2:nth-child(3){
+        background-color:#1182ba;
+        border: 2px solid #1182ba;
+    }
+    .caixa_2:nth-child(4){
+        background-color:#26a6d7;
+        border: 2px solid #fff;
+    }
+    .txt2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+</style>

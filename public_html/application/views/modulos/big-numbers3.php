@@ -20,7 +20,7 @@ if($bignumber["bigNumber"]){
             <div class="caixas" id="bigNumber-lista">
                 <?php foreach($bignumber["bigNumber"] as $key => $bigNumber):?>
                     <div class="caixa">
-                        <?php if($bigNumber['classFontello']):?><em class="<?=$bigNumber['classFontello']?>"></em><?php endif;?>
+                        <?php if($bigNumber['classFontello']):?><em id="icon-bigNumber" class="<?=$bigNumber['classFontello']?>"></em><?php endif;?>
                             
                             <div class="txt2">
                                 <//?=$bigNumber['prefixo']?>
@@ -79,39 +79,60 @@ if($bignumber["bigNumber"]){
         flex-direction:column;
         background-color: #fff;
         flex-wrap: wrap;
-        height: 300px;
         width: 100%;
+        padding-top:15px ;
+        padding-bottom: 15px;
     }
     .box{
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: space-between;
         width: 50%;
+    }
+    #icon-bigNumber{
+        font-size: 30px;
     }
     .title{
         color: black;
         font-size: 40px;
-        font-weight: 800;
+        font-weight: 1;
         width: 400px;
         line-height: 50px;
+        margin: auto;
+        font-weight: 400;
     }
     .caixas{
         display: flex;
         align-items: center;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;  
+        gap: 25px;
+        margin: auto;  
     }
     .caixa{
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        background-color: #000;
-        color: #fff;
         width: 146px;
         height: 130px;
         border-radius: 20px;
-        margin: 20px;
+        margin: auto;
         padding: 26px;
+        text-align: center;
+    }
+    .caixa:nth-child(1){
+        background-color: #01032a;
+        color: #fff;
+    }
+    .caixa:nth-child(2){
+        background-color: #fff;
+        color: #26a6d7;
+        border: 2px solid #26a6d7;
+    }
+    .caixa:nth-child(3){
+        background-color:#26a6d7;
+        color: #fff;
     }
     .txt2{
         font-size: 20px;

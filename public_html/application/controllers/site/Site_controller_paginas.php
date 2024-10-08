@@ -46,7 +46,7 @@ class Site_controller_paginas extends Base_controller {
 				'big-numbers2',
 				// 'modulo-13',
 				'copywriter-2',
-				'copywriter-3',
+				// 'copywriter-3',
 				// 'backaground-fundo-form',
 			),
 			'conteudo_3' => array(
